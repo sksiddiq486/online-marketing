@@ -5,7 +5,8 @@ import ImageCarousel from "../components/ImageCarousel";
 import Header from "../components/menu/Header";
 import "./Home.css";
 import Services from "../components/services/Services";
-
+import Footer from "../components/footerNav/Footer";
+import Floating from "../components/Floting";
 const Home = () => {
   return (
     <div>
@@ -38,12 +39,14 @@ const Home = () => {
       </Container>
       <Services />
       <ContentImage />
+      <Footer />
       <div
         style={{
           height: "100px",
           // background: `linear-gradient(#561E12, #34961C)`,
         }}
       ></div>
+      <Floating />
     </div>
   );
 };
