@@ -1,0 +1,16 @@
+.logo{
+    height: 8vh;
+    width: 12vw;
+}
+.menu-button{
+    border:none;
+    background: transparent;
+    font-size: 1.1VW;
+    font-weight: bold;
+    color:black
+}
+.contact-button{
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
