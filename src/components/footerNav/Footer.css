@@ -1,0 +1,26 @@
+.title{
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 10px;
+    display: flex;
+    align-self: flex-start;
+}
+.content-name{
+    font-size: 1vw;
+    
+    color: #bbb6c7;
+    padding-bottom: 1.4vh;
+
+}
+.main-container{
+    background-color: black;
+}
+.rights-reserved{
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
