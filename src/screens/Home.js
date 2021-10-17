@@ -40,12 +40,6 @@ const Home = () => {
       <Services />
       <ContentImage />
       <Footer />
-      <div
-        style={{
-          height: "100px",
-          // background: `linear-gradient(#561E12, #34961C)`,
-        }}
-      ></div>
       <Floating />
     </div>
   );
@@ -53,7 +47,7 @@ const Home = () => {
 
 export default Home;
 
-export const ContentDiv = () => {
+const ContentDiv = () => {
   return (
     <div style={{ backgroundColor: "#eeeeee" }}>
       <img
@@ -80,44 +74,55 @@ export const ContentDiv = () => {
   );
 };
 
-export const ContentImage = () => {
+const ContentImage = () => {
   return (
-    <Container fluid className="bottom-container pb-3">
-      <Col
-        className="text-para"
-        style={{ fontSize: "60px", fontWeight: "bold" }}
+    <div
+    // className="background-div"
+    >
+      <Container
+        fluid
+        className="bottom-container pb-3"
+        // style={{ position: "absolute", top: "10px" }}
       >
-        Web Design
-      </Col>
-      <Col className="text-para" style={{ fontSize: "30px", color: "black" }}>
-        in Dubai
-      </Col>
-      <Col className="text-para pb-2">
-        In today’s world where the cutthroat competition prevails your brand
-        will have to stand on its own. Our company is armed with creative
-        intelligence with visionary ideas and original thinking. We believe in
-        dedication to hard work with integrity and honesty. At Element 8 we are
-        passionate people who think in delivering outstanding results. At
-        Element 8 you can count on us to be an integrated communications agency
-        with a good track record that can take your company and frame your
-        project as an extension of the core promise of your brand.
-      </Col>
-      <Col className="text-para pb-2">
-        Our company has a profound sense of teamwork that they use to satisfy
-        our customers need. Comparing other web design company Dubai, in our
-        company we share truthfulness, modesty, and laughter. The staff is made
-        of a diversified background of talents and knowledge and uses this
-        knowledge to keep the creative juices flowing making this a strong
-        foundation
-      </Col>
-      <Col className="text-para">
-        Because we love what we do and because we want our clients to feel the
-        same way about our work, Element 8 keeps everything 100% in-house. From
-        designing, development, or digital marketing.We take pride in our team,
-        in which every member aims to contribute to our mutual goal – to deliver
-        and maintain, at all means necessary, the highest quality of service
-        from dubai to the world.
-      </Col>
-    </Container>
+        <Col
+          className="text-para"
+          style={{ fontSize: "60px", fontWeight: "bold" }}
+        >
+          Web Design
+        </Col>
+        <Col className="text-para" style={{ fontSize: "30px", color: "black" }}>
+          in Dubai
+        </Col>
+        <Col className="text-para pb-2">
+          In today’s world where the cutthroat competition prevails your brand
+          will have to stand on its own. Our company is armed with creative
+          intelligence with visionary ideas and original thinking. We believe in
+          dedication to hard work with integrity and honesty. At Element 8 we
+          are passionate people who think in delivering outstanding results. At
+          Element 8 you can count on us to be an integrated communications
+          agency with a good track record that can take your company and frame
+          your project as an extension of the core promise of your brand.
+        </Col>
+        <Col className="text-para pb-2">
+          Our company has a profound sense of teamwork that they use to satisfy
+          our customers need. Comparing other web design company Dubai, in our
+          company we share truthfulness, modesty, and laughter. The staff is
+          made of a diversified background of talents and knowledge and uses
+          this knowledge to keep the creative juices flowing making this a
+          strong foundation
+        </Col>
+        <Col className="text-para">
+          Because we love what we do and because we want our clients to feel the
+          same way about our work, Element 8 keeps everything 100% in-house.
+          From designing, development, or digital marketing.We take pride in our
+          team, in which every member aims to contribute to our mutual goal – to
+          deliver and maintain, at all means necessary, the highest quality of
+          service from dubai to the world.
+        </Col>
+        <Col>
+          <img src="/assets/keypad.jpg" style={{ width: "100%" }} />
+        </Col>
+      </Container>
+    </div>
   );
 };

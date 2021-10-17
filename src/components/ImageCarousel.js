@@ -1,9 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Floating from "./Floting";
 
 const ImageCarousel = () => {
   return (
-    <div>
+    <div style={{ zIndex: 0 }}>
       <Carousel>
         <Carousel.Item>
           <img
@@ -52,6 +53,7 @@ const ImageCarousel = () => {
             <p>Raising Over The Top</p>
           </Carousel.Caption>
         </Carousel.Item>
+        {/* <Floating /> */}
       </Carousel>
     </div>
   );

@@ -35,3 +35,11 @@ button{
 .line-image{
     height: 3vh;
 }
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin: auto;
+    align-self: center;
+}

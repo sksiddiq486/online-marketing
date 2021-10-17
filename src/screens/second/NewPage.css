@@ -1,0 +1,51 @@
+.image-div{
+    background-image: url('https://www.volgatigris.com/images/banner/about-us-banner.jpg');
+    height: 50vh;
+    color: ivory;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 10vh;
+}
+.main-div{
+    background-color: #f3f3f3;
+}
+.text-content{
+    text-align: left;
+    font-family: NunitoSans-Light;
+    line-height: 27px;
+}
+.title{
+    font-weight: bold;
+    font-size: 3.8vw;
+    text-align: center;
+    padding-top: 7vh;
+    font-family: NunitoSans-Light;
+    color: black;
+}
+.blue-icons{
+    height: 50px;
+    width: 80px;
+}
+.small-title{
+    font-weight: bold;
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: NunitoSans-Light;
+    color: white;
+}
+.main-container{
+    background-color: black;
+    padding-top: 7vh;
+    margin-right: 10px;
+}
+.description{
+    text-align: center;
+    color: #fff;
+}
+.main-container:hover{
+    background-color: #f3f3f3;
+}
+.main-container:hover, .description, .small-title{
+    color: black;
+}
