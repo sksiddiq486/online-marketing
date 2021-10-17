@@ -77,11 +77,11 @@ const data = [
     content: [
       {
         id: 1,
-        name: "3401, Latifa Towers",
+        name: "2108, Bays Water Towers",
       },
       {
         id: 2,
-        name: "Sheikh Zayed Road, Dubai",
+        name: "Business Bay, Dubai",
       },
       {
         id: 3,
@@ -89,15 +89,15 @@ const data = [
       },
       {
         id: 4,
-        name: "04 3545956 ",
+        name: "052 279 5901 ",
       },
       {
         id: 5,
-        name: "058 5221919",
+        name: "055 647 1517",
       },
       {
         id: 6,
-        name: "info@element8.ae",
+        name: "media@digitaltrafficmakers.com",
       },
     ],
   },
@@ -123,7 +123,7 @@ const Footer = () => {
         })}
       </Row>
       <div className="rights-reserved">
-        2021 Element 8 - Digital Web Agency. All Rights Reserved
+        2021 Digital Traffic Makers - Digital Marketing Agency. All Rights Reserved
       </div>
     </Container>
   );
