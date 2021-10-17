@@ -6,14 +6,17 @@ import "./Services.css";
 const Services = () => {
   return (
     <Container fluid className="pt-3 pb-3">
-      <Col className="title">
-        <div>Services</div>
-        <img
-          src="https://ittisa.com/wp-content/uploads/2019/09/yellow-line.png"
-          className="line-image"
-        />
-      </Col>
-
+      {/* <Col className="main-title">
+        <Col>
+          <Col>Services</Col>
+          <Col className="title">
+            <img
+              src="https://ittisa.com/wp-content/uploads/2019/09/yellow-line.png"
+              className="line-image"
+            />
+          </Col>
+        </Col>
+      </Col> */}
       <Row>
         <Col>
           <img

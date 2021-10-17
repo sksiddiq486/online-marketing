@@ -1,4 +1,4 @@
-.title{
+.titles{
     font-size: 1.2vw;
     font-weight: bold;
     color: #ffffff;
@@ -8,12 +8,10 @@
 }
 .content-name{
     font-size: 1vw;
-    
     color: #bbb6c7;
     padding-bottom: 1.4vh;
-
 }
-.main-container{
+.main-containers{
     background-color: black;
 }
 .rights-reserved{
