@@ -27,7 +27,7 @@ const Floating = () => {
           onClick={(e) =>
             linkClick(
               e,
-              "https://www.linkedin.com/company/digital-traffic-makers"
+              "https://www.pngall.com/wp-content/uploads/2016/07/Linkedin-PNG-Picture.png"
             )
           }
         >
