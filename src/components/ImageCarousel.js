@@ -13,8 +13,8 @@ const ImageCarousel = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Galabari Motar Driving Center</h3>
-            <p>User experience that drives people.</p>
+            <h3>Search Engine Optimization</h3>
+            <p>Drives organic traffic to your website.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,8 +25,8 @@ const ImageCarousel = () => {
           />
 
           <Carousel.Caption>
-            <h3>Tec</h3>
-            <p>Digital Global Growth.</p>
+            <h3>Pay Per Click</h3>
+            <p>pay for your traffic generated keyword.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,8 +37,8 @@ const ImageCarousel = () => {
           />
 
           <Carousel.Caption>
-            <h3>Hisense</h3>
-            <p>Raising Over The Top</p>
+            <h3>Search Engine Marketing</h3>
+            <p>Raise your quality leads using search engine</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -49,8 +49,8 @@ const ImageCarousel = () => {
           />
 
           <Carousel.Caption>
-            <h3>Hisense</h3>
-            <p>Raising Over The Top</p>
+            <h3>Web Development and App development</h3>
+            <p>Build your Quality website with us</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* <Floating /> */}

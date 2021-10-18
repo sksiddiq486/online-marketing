@@ -6,8 +6,8 @@ import NewPage from "./screens/second/NewPage";
 
 const App = () => {
   return (
-    // <Home />
-    <NewPage />
+    <Home />
+    // <NewPage />
   );
 };
 
