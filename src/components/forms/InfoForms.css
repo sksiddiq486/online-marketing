@@ -1,0 +1,21 @@
+.form{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+}
+.note-text{
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 21px;
+    text-align: left;
+    color: #000;
+}
+#standard-basic{
+    width: 27vw;
+}
+.outlined-button{
+    border-width: 3px;
+}
+.forms{
+    background-color:#f3f3f3;
+}

@@ -1,0 +1,19 @@
+.cards{
+    width: 18rem;
+     padding: 0;
+     background-color:red;
+}
+.blog-title{
+    /* background-color: pink; */
+    font-weight: bold;
+    font-size: 4vw;
+    padding-bottom: 4vh;
+}
+.date{
+font-size: 1vw;
+text-align: end;
+}
+.blog-container{
+    padding-bottom: 10vh;
+    background-color: #f3f3f3;
+}

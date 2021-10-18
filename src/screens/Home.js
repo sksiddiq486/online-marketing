@@ -79,11 +79,7 @@ const ContentImage = () => {
     <div
     // className="background-div"
     >
-      <Container
-        fluid
-        className="bottom-container pb-3"
-        // style={{ position: "absolute", top: "10px" }}
-      >
+      <Container fluid className="bottom-container pb-3">
         <Col
           className="text-para"
           style={{ fontSize: "60px", fontWeight: "bold" }}

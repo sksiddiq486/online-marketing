@@ -1,12 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./NewPage.css";
+import WebsiteDesign from "../../components/website/WebsiteDesign";
+import LatestBlog from "../../components/latestBlogs/LatestBlog";
+import InfoForms from "../../components/forms/InfoForms";
 
 const NewPage = () => {
   return (
     <div>
       <ImageContainer />
       <ContentImageContainer />
+      <WebsiteDesign />
+      <WebDesignContainer />
+      <LatestBlog />
+      <InfoForms />
     </div>
   );
 };
@@ -23,7 +30,7 @@ export const ImageContainer = () => {
   );
 };
 
-export const ContentImageContainer = () => {
+const ContentImageContainer = () => {
   return (
     <Container
       className="d-flex align-items-center justify-content-center main-div pb-5"
@@ -84,5 +91,55 @@ const ImageCard = (props) => {
       <div className="small-title">{props.title}</div>
       <div className="description pb-5">{props.des}</div>
     </Col>
+  );
+};
+
+const WebDesignContainer = () => {
+  return (
+    <Container
+      className="d-flex align-items-center justify-content-center main-div pb-5"
+      fluid
+    >
+      <div style={{ width: "70%" }}>
+        <Row className="title">
+          Why Volga Tigris For Web Design & Development
+        </Row>
+        <Row className="text-content pb-3">
+          We value our customers and want for them to trust Volga Tigris
+          wholeheartedly which is why we try to outline the reasons why are the
+          best choice for you.
+        </Row>
+        <Row className="text-content pb-3">
+          Our Experience – This has helped us understand that we are not to take
+          anything for granted. More than trying to sell the same dish to
+          everyone we understand the customers’ requirements – Their focus, why
+          they have this requirement and then suggest only services that suit
+          their need.
+        </Row>
+
+        <Row className="text-content pb-3">
+          Creative and innovative web design – Our team always puts in the extra
+          mile to understand more of the customers’ business need to come up
+          with creative and eye catching but functional and seamless designs.
+        </Row>
+        <Row className="text-content pb-3">
+          Technology is not a stumbling block – We work with both old and new
+          technologies be it Drupal, Wordpress, SitCom, Sharepoint, Hubspot etc.
+        </Row>
+        <Row className="text-content pb-3">
+          Promotions – Apart from creating your website, we also support with
+          the launch and promotion of these websites reaching out to the masses
+          and allowing for traffic to seep in. Local presence – We are based out
+          of Dubai, one of the biggest and best commercial hubs in the middle
+          east region. This allows for us to aware of the local culture and
+          further ensure maximum reach in this part of the world.
+        </Row>
+        <Row className="text-content pb-3">
+          Volga Tigris should definitely be your pick for your web design and
+          development needs. Our web development services are available in
+          Dubai, Sharjah, Ajman, Abu Dhabi, and Ras Al-Khaima.
+        </Row>
+      </div>
+    </Container>
   );
 };

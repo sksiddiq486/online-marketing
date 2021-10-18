@@ -5,7 +5,7 @@
 }
 .image{
     height: 26vh;
-    width: 26vw;
+    width: 24vw;
     zoom: 1;
 }
 .image:hover{
@@ -20,10 +20,10 @@
 }
 button{
     padding: 10px 40px;
-    border: 1px solid #fff;
+    border: none;
     font-weight: 900;
     color: #fff;
-    border-radius:5px;
+    border-radius:50px;
     background-color: #FFCB3B;
 }
 .button-div{
@@ -35,11 +35,7 @@ button{
 .line-image{
     height: 3vh;
 }
-.main-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-    margin: auto;
-    align-self: center;
+.title-container{
+    font-weight: bold;
+    font-size: 2vw;
 }
