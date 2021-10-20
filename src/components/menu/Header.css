@@ -14,3 +14,7 @@
     border: none;
     font-weight: bold;
 }
+.navigation-link{
+    color: black;
+    text-decoration: none;
+}

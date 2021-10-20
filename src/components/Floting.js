@@ -27,12 +27,12 @@ const Floating = () => {
           onClick={(e) =>
             linkClick(
               e,
-              "https://www.pngall.com/wp-content/uploads/2016/07/Linkedin-PNG-Picture.png"
+              "https://www.linkedin.com/company/digital-traffic-makers"
             )
           }
         >
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAG9vlqLTJOBtiazqd6xkpevqjjCnP-mIyXQ&usqp=CAU"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfcwxpxBo_uFK-p4fNNG-2XEJvhLq01ypfQ&usqp=CAU"
             className="logo"
             style={{ height: "20px", width: "20px" }}
           />

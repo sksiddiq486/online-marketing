@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./NewPage.css";
+import "./WebDesignPage.css";
 import WebsiteDesign from "../../components/website/WebsiteDesign";
 import LatestBlog from "../../components/latestBlogs/LatestBlog";
 import InfoForms from "../../components/forms/InfoForms";
+import Footer from "../../components/footerNav/Footer";
 
-const NewPage = () => {
+const WebDesignPage = () => {
   return (
     <div>
       <ImageContainer />
@@ -14,11 +15,12 @@ const NewPage = () => {
       <WebDesignContainer />
       <LatestBlog />
       <InfoForms />
+      <Footer />
     </div>
   );
 };
 
-export default NewPage;
+export default WebDesignPage;
 
 export const ImageContainer = () => {
   return (
@@ -84,8 +86,11 @@ const ContentImageContainer = () => {
 
 const ImageCard = (props) => {
   return (
-    <Col className="main-container">
-      <div className="d-flex align-items-center justify-content-center">
+    <Col className="main-contain">
+      <div
+        className="d-flex align-items-center justify-content-center"
+        // onMouseLeave={() => alert("hiiiii")}
+      >
         <img src={props.src} className="blue-icons" />
       </div>
       <div className="small-title">{props.title}</div>

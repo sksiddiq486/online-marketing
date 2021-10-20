@@ -4,9 +4,10 @@
     text-align: center;
 }
 .image{
-    height: 26vh;
-    width: 24vw;
+    height: 27vh;
+    width: 25vw;
     zoom: 1;
+    /* background-color: red; */
 }
 .image:hover{
     zoom: 1.1;
@@ -16,6 +17,8 @@
     text-align: center;
     font-weight: bold;
     color: grey;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 
 }
 button{
@@ -38,4 +41,8 @@ button{
 .title-container{
     font-weight: bold;
     font-size: 2vw;
+    font-family: OstrichSans-Black;
+}
+.col-padd{
+    padding-left: 30px;
 }

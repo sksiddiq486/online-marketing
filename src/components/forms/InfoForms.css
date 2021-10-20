@@ -2,6 +2,7 @@
     background-color: #ffffff;
     border-radius: 5px;
     padding: 30px;
+    width: 82%;
 }
 .note-text{
     font-weight: 600;
@@ -18,4 +19,32 @@
 }
 .forms{
     background-color:#f3f3f3;
+}
+.meet-title{
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+.off-title{
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.border-div{
+    border-bottom: 3px solid #ffca00;
+}
+.border-button{
+    color: black;
+    font-weight: 400;
+
+}
+.address-fields{
+    font-weight: 350;
+    color:#000;
+    font-size: 1.3vw;
+}
+.form-info-title{
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.form-info-value{
+    font-weight: 350;
 }

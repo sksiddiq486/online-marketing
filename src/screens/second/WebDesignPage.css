@@ -34,7 +34,7 @@
     font-family: NunitoSans-Light;
     color: white;
 }
-.main-container{
+.main-contain{
     background-color: black;
     padding-top: 7vh;
     margin-right: 10px;
@@ -43,9 +43,14 @@
     text-align: center;
     color: #fff;
 }
-.main-container:hover{
+/* .main-contain:hover{
     background-color: #f3f3f3;
-}
-.main-container:hover, .description, .small-title{
+} */
+/* .main-contain:hover, .description{
     color: black;
+    background-color: white;
 }
+.main-contain:hover, .small-title{
+    color: black;
+    background-color: white;
+} */

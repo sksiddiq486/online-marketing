@@ -6,6 +6,7 @@ import "@szhsin/react-menu/dist/transitions/slide.css";
 import "./Header.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -30,8 +31,11 @@ const Header = () => {
             }
           >
             <MenuItem className="menu-button">SEO SERVICE</MenuItem>
+
             <MenuItem className="menu-button">
-              WEB DESIGN & DEVELOPMENT
+              <Link to="/webdesign" className="navigation-link">
+                WEB DESIGN & DEVELOPMENT{" "}
+              </Link>
             </MenuItem>
             <SubMenu label="SOCIAL MEDIA MARKETING" className="menu-button">
               <MenuItem className="menu-button">FACEBOOK MARKETING</MenuItem>
@@ -39,7 +43,11 @@ const Header = () => {
               <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
               <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
             </SubMenu>
-            <MenuItem className="menu-button">GOOGLE ADS</MenuItem>
+            <MenuItem className="menu-button">
+              <Link to="/ads" className="navigation-link">
+                GOOGLE ADS
+              </Link>
+            </MenuItem>
           </Menu>
         </Col>
         <Col md={1}>

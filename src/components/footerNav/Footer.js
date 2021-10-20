@@ -4,7 +4,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 // import { AiFillAccountBook } from "react-icons/ai";
-import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  ImLinkedin2,
+} from "react-icons/fa";
 
 const data = [
   {
