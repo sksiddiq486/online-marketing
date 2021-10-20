@@ -5,11 +5,15 @@ import Home from "./screens/Home";
 import WebDesignPage from "./screens/second/WebDesignPage";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import GoogleAds from "./screens/googleAds/GoogleAds";
+import ContactUs from "./screens/contact/ContactUs";
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/contact">
+          <ContactUs />
+        </Route>
         <Route path="/ads">
           <GoogleAds />
         </Route>

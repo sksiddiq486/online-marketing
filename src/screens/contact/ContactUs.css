@@ -1,0 +1,63 @@
+.back-image{
+    width: 100%;
+    background-image:url('https://www.volgatigris.com/images/contct_.jpg');
+    background-attachment: fixed;
+    /* color: #ffffff; */
+}
+.form-div{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-title{
+    font-size: 4vw;
+    padding-bottom: 2vh;
+    color: #ffffff;
+}
+.form-bredGrum{
+    font-size: 1vw;
+    padding-bottom: 4vh;
+    color: #ffffff;
+}
+#standard-basic{
+    width: 27vw;
+}
+.input-field{
+    background-color: #141414;
+    color: #ffffff;
+    border-style: none;
+    outline: none;
+    width: 90%;
+
+}
+.note-texts{
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    /* width: 50%; */
+}
+.submit-button{
+    border-width: 3px;
+  color: #fff;
+}
+.transparent-div{
+    background-color: transparent;
+    height: 60vh;
+}
+.left-image{
+    height: 20vw;
+    width: 20vw;
+}
+.image-col{
+    padding-left: 20%;
+}
+.title-container{
+    font-weight: bold;
+    font-size: 3vw;
+    padding-bottom: 3vh;
+}

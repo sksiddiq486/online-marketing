@@ -54,7 +54,9 @@ const Header = () => {
           <Button className="menu-button">BLOGS</Button>
         </Col>
         <Col>
-          <Button className="contact-button">CONTACT US</Button>
+          <Link to="/contact" className="navigation-link">
+            <Button className="contact-button">CONTACT US</Button>
+          </Link>
         </Col>
       </Row>
     </Container>
