@@ -32,25 +32,17 @@
     text-align: center;
     padding-top: 5vh;
     font-family: NunitoSans-Light;
-    color: white;
 }
 .main-contain{
     background-color: black;
     padding-top: 7vh;
     margin-right: 10px;
+    color: #fff;
 }
 .description{
     text-align: center;
-    color: #fff;
 }
-/* .main-contain:hover{
+.main-contain:hover{
     background-color: #f3f3f3;
-} */
-/* .main-contain:hover, .description{
-    color: black;
-    background-color: white;
+    color:black
 }
-.main-contain:hover, .small-title{
-    color: black;
-    background-color: white;
-} */

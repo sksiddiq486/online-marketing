@@ -7,7 +7,7 @@ import Footer from "../../components/footerNav/Footer";
 
 const ContactUs = () => {
   return (
-    <Container className=" p-0" fluid>
+    <Container className="p-0" fluid>
       <div className="back-image">
         <div className="form-div">
           <div style={{ width: "64%" }}>
