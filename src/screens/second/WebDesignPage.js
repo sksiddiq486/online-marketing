@@ -40,7 +40,7 @@ const ContentImageContainer = () => {
     >
       <div style={{ width: "70%" }}>
         <Row className="title">
-          What Makes Volga Tigris Website Design & Development Special?
+          What Makes Digital Traffic Makers Website Design & Development Special?
         </Row>
         <Row className="text-content pb-3">
           As the digital business market grew, the number of web and mobile app
@@ -50,12 +50,12 @@ const ContentImageContainer = () => {
           tricky. What makes Volga Tigris unique and special
         </Row>
         <Row className="text-content pb-3">
-          Volga Tigris believes in creating lasting experiences. Almost 95% of
+          Digital Traffic Makers believes in creating lasting experiences. Almost 95% of
           our clientele are repeat customers. We invest in our client
           partnerships and blend in technology and creativity to innovate
           something unique for you. Be it managing the store content, developing
           a mobile application for your store, using search engine services or
-          just marketing services, Volga Tigris treats them all the same. We
+          just marketing services, Digital Traffic Makers treats them all the same. We
           have a wide range of web and mobile app development services. All
           these make it a very reliable one stop shop for all your design, web,
           and mobile application requirements.
@@ -107,10 +107,10 @@ const WebDesignContainer = () => {
     >
       <div style={{ width: "70%" }}>
         <Row className="title">
-          Why Volga Tigris For Web Design & Development
+          Why Digital Traffic Makers For Web Design & Development
         </Row>
         <Row className="text-content pb-3">
-          We value our customers and want for them to trust Volga Tigris
+          We value our customers and want for them to trust Digital Traffic Makers
           wholeheartedly which is why we try to outline the reasons why are the
           best choice for you.
         </Row>
@@ -140,7 +140,7 @@ const WebDesignContainer = () => {
           further ensure maximum reach in this part of the world.
         </Row>
         <Row className="text-content pb-3">
-          Volga Tigris should definitely be your pick for your web design and
+          Digital Traffic Makers should definitely be your pick for your web design and
           development needs. Our web development services are available in
           Dubai, Sharjah, Ajman, Abu Dhabi, and Ras Al-Khaima.
         </Row>

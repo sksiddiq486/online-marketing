@@ -21,7 +21,7 @@ const ContactUs = () => {
             </Col>
 
             <Col className="note-texts">
-              We are cautious about your privacy. Volga Tigris Digital Marketing
+              We are cautious about your privacy. Digital Traffic Makers Digital Marketing
               Agency uses the information you provide to us to contact you about
               our relevant content, products, and services. You can unsubscribe
               from these communications at any time, if you wish to. For more

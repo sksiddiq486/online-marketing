@@ -47,7 +47,7 @@ const RightImageContainer = (props) => {
               implement creative strategies to enhance your brand’s outreach.
             </Col>
             <Col className="pt-3">
-              United SEO’s team of experts is here to help you benefit from a
+              Digital Traffic Makers team of experts is here to help you benefit from a
               range of PPC campaign services, all of which are focused on
               helping your business achieve goals by generating leads. We
               promise to put in the best of our efforts to understand your needs
@@ -88,7 +88,7 @@ const LeftImageContainer = () => {
               implement creative strategies to enhance your brand’s outreach.
             </Col>
             <Col className="pt-3">
-              United SEO’s team of experts is here to help you benefit from a
+              Digital Traffic Makers team of experts is here to help you benefit from a
               range of PPC campaign services, all of which are focused on
               helping your business achieve goals by generating leads. We
               promise to put in the best of our efforts to understand your needs

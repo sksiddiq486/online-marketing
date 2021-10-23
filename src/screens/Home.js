@@ -56,13 +56,13 @@ const ContentDiv = () => {
       />
       <Container className="pb-2">
         <div className="content-title">
-          Digital Marketing Agency Bangalore, India
+          Digital Marketing Agency Dubai, UAE
         </div>
         <div className="content-title">-A GOOGLE PARTNER AGENCY-</div>
         <div className="content-title">
           We are a team of highly motivated, passionate millennials for whom
           digital marketing is a way of life. Ittisa,{" "}
-          <strong>one of the best digital marketing companies in India</strong>,
+          <strong>one of the best digital marketing companies in Dubai</strong>,
           <span>
             believes in building world-class digital experiences that easily
             metamorphose into offline experiences and help brands tell stories,
