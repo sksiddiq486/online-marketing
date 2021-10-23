@@ -1,0 +1,7 @@
+.floting-container{
+    position: absolute;
+    top:100vh;
+    z-index: 1;
+    right:30px
+    /* background: red; */
+}

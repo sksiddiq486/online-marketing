@@ -48,6 +48,8 @@
 .transparent-div{
     background-color: transparent;
     height: 60vh;
+    color:yellow;
+    font-size: 4vw;
 }
 .left-image{
     height: 20vw;

@@ -7,11 +7,25 @@ import "./Home.css";
 import Services from "../components/services/Services";
 import Footer from "../components/footerNav/Footer";
 import Floating from "../components/Floting";
+import { Random } from "react-animated-text";
+
 const Home = () => {
   return (
     <div>
       <Header />
-      <ImageCarousel />
+      <div>
+        <ImageCarousel />
+      </div>
+      <div className="mains">
+        <Random
+          text={"Digital Traffic Makers"}
+          // paused={this.state.paused}
+          effect="verticalFadeOut"
+          effectDirection="down"
+          effectChange={3.0}
+        />
+      </div>
+
       <ContentDiv />
       <Container fluid className="gif-image pb-4 pt-0">
         <div
