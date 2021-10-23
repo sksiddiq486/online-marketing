@@ -6,11 +6,19 @@ import WebDesignPage from "./screens/second/WebDesignPage";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import GoogleAds from "./screens/googleAds/GoogleAds";
 import ContactUs from "./screens/contact/ContactUs";
+import SocialMedia from "./screens/socialMedia/SocialMedia";
+import AboutUs from "./screens/about/AboutUs";
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/aboutus">
+          <AboutUs />
+        </Route>
+        <Route path="/social">
+          <SocialMedia />
+        </Route>
         <Route path="/contact">
           <ContactUs />
         </Route>

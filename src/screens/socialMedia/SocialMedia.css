@@ -1,0 +1,75 @@
+.top-banner{
+    background-color: #1aa0fb;
+    padding-bottom: 20vh;
+}
+.start-button{
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #ffffff;
+    color: #1aa0fb;
+    font-size: 1.1vw;
+}
+.top-title{
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.sub-title{
+    color: #ffffff;
+    font-size: 1.2vw;
+    text-align: center;
+    padding-bottom: 1.6vh;
+}
+.connect-customers{
+    font-size: 3vw;
+    color:yellow;
+    font-weight: 600;
+}
+.sub-unique-title{
+    font-weight: 500;
+    font-size: 1.4vw;
+    padding-bottom: 1vh;
+}
+.dot{
+    height:10px;
+    /* width: 5px; */
+    border-radius: 20px;
+    background-color: black;
+}
+.text-field{
+    height:50px;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 4px;
+    width: 20vw;
+    padding-left: 10px;
+}
+.image-title{
+    font-weight: 600;
+    font-size: 2vw;
+    color: yellow;
+    text-align: center;
+}
+.left-image-title{
+    font-weight: 600;
+    font-size: 2vw;
+    color: yellow;
+}
+.left-image-subtitle{
+    font-weight: 400;
+    color: black;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.text-color{
+    color:#898989
+}
+.center-text{
+    text-align: center;
+    color:#898989
+}
