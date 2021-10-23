@@ -43,9 +43,15 @@ const Header = () => {
               <Link to="/social" className="navigation-link">
                 <MenuItem className="menu-button">FACEBOOK MARKETING</MenuItem>
               </Link>
-              <MenuItem className="menu-button">INSTAGRAM MARKETING</MenuItem>
-              <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
-              <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">INSTAGRAM MARKETING</MenuItem>
+              </Link>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
+              </Link>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
+              </Link>
             </SubMenu>
             <MenuItem className="menu-button">
               <Link to="/ads" className="navigation-link">
