@@ -11,3 +11,11 @@
 .gif-image{
     background-color: black;
 }
+.mains{
+    position: absolute;
+    color:white;
+    bottom:30vh;
+    font-weight: 800;
+    font-size: 2vw;
+    right:15vw
+}

@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Button, TextField, Input } from "@mui/material";
 import CompanyInfo from "../../components/info/CompanyInfo";
 import Footer from "../../components/footerNav/Footer";
+import { Wave, Random } from "react-animated-text";
 
 const ContactUs = () => {
   return (
@@ -35,7 +36,15 @@ const ContactUs = () => {
             </Col>
           </div>
         </div>
-        <div className="transparent-div">jjjhhjhjj</div>
+        <div className="transparent-div d-flex align-items-center justify-content-center">
+          {/* <Wave text="EXAMPLE TEXT" /> */}
+          <Random
+            text="Lets Talk about Bussiness"
+            effect="verticalFadeOut"
+            effectDirection="down"
+            effectChange={3.0}
+          />
+        </div>
         <LeftImageContainer />
         <CompanyInfo />
         <Footer />

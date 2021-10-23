@@ -22,7 +22,9 @@ const Header = () => {
           <Button className="menu-button">HOME</Button>
         </Col>
         <Col md={1} className="">
-          <Button className="menu-button">ABOUTUS</Button>
+          <Link to="/aboutus" className="navigation-link">
+            <Button className="menu-button">ABOUTUS</Button>
+          </Link>
         </Col>
         <Col md={1}>
           <Menu
@@ -38,10 +40,18 @@ const Header = () => {
               </Link>
             </MenuItem>
             <SubMenu label="SOCIAL MEDIA MARKETING" className="menu-button">
-              <MenuItem className="menu-button">FACEBOOK MARKETING</MenuItem>
-              <MenuItem className="menu-button">INSTAGRAM MARKETING</MenuItem>
-              <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
-              <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">FACEBOOK MARKETING</MenuItem>
+              </Link>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">INSTAGRAM MARKETING</MenuItem>
+              </Link>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
+              </Link>
+              <Link to="/social" className="navigation-link">
+                <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
+              </Link>
             </SubMenu>
             <MenuItem className="menu-button">
               <Link to="/ads" className="navigation-link">

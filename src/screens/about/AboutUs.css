@@ -1,0 +1,57 @@
+.top-about-banner{
+    background-color: #1aa0fb;
+    height: 40vh;
+    padding-left: 5vw;
+}
+.top-about-title{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffffff;
+}
+.red-main-container{
+    display: flex;
+
+}
+.red-div-5{
+    height: 8px;
+    width: 5vw;
+    border-radius: 10px;
+    background-color:#f52f2f;
+    margin-right: 2px;
+}
+.red-div-3{
+    height: 8px;
+    width: 3vw;
+    border-radius: 10px;
+    background-color:#f52f2f;
+    margin-right: 2px;
+}
+.right-main-row{
+    padding-top: 15vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-right: 10vh;
+}
+.right-container-title{
+    font-size: 3vw;
+    font-weight: 700;
+    width: 70%;
+}
+.text-color{
+    color:#565f6d;
+    font-family: sans-serif;
+}
+.span-div{
+    font-weight: 800;
+    color:#565f6d;
+    font-family: sans-serif;
+
+}
+.team-title{
+    color: yellow;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.social-row{
+    width: 60%;
+}
