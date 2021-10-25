@@ -12,7 +12,7 @@ import { Random } from "react-animated-text";
 const Home = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div>
         <ImageCarousel />
       </div>
@@ -22,7 +22,7 @@ const Home = () => {
           // paused={this.state.paused}
           effect="verticalFadeOut"
           effectDirection="down"
-          effectChange={3.0}
+          effectChange={5.0}
         />
       </div>
 

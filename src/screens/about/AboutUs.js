@@ -10,6 +10,7 @@ import {
   FaLinkedin,
   ImLinkedin2,
 } from "react-icons/fa";
+import InfoForms from "../../components/forms/InfoForms";
 
 const AboutUs = () => {
   return (
@@ -19,7 +20,8 @@ const AboutUs = () => {
       </Col>
       <RightImageContainer />
       <TeamImages />
-      <CardForm />
+      {/* <CardForm /> */}
+      <InfoForms />
       <Footer />
     </Container>
   );

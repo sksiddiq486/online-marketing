@@ -5,6 +5,7 @@ import ContactUs from "../contact/ContactUs";
 import "./SocialMedia.css";
 import { Card, CardContent, TextField } from "@mui/material";
 import Footer from "../../components/footerNav/Footer";
+import InfoForms from "../../components/forms/InfoForms";
 
 const SocialMedia = () => {
   return (
@@ -91,7 +92,8 @@ const SocialMedia = () => {
           ]}
         />
       </Row>
-      <CardForm />
+      {/* <CardForm /> */}
+      <InfoForms />
       <Footer />
     </Container>
   );
