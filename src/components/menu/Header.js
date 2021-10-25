@@ -18,21 +18,33 @@ const Header = () => {
             className="logo"
           />
         </Col>
-        <Col md={1} className="align-items-center d-flex">
-          <Button className="menu-button">HOME</Button>
-        </Col>
-        <Col md={1} className="">
-          <Link to="/aboutus" className="navigation-link">
-            <Button className="menu-button">ABOUTUS</Button>
+        <Col
+          md={1}
+          className="p-0 menu-button d-flex align-items-center justify-content-center"
+        >
+          <Link to="/home" className="navigation-link">
+            HOME
           </Link>
         </Col>
-        <Col md={1}>
+        <Col
+          md={1}
+          className="p-0 d-flex align-items-center justify-content-center"
+        >
+          <Link to="/aboutus" className="navigation-link menu-button">
+            ABOUTUS
+          </Link>
+        </Col>
+        <Col md={1} className="">
           <Menu
             menuButton={
-              <MenuButton className="menu-button">SERVICES</MenuButton>
+              <MenuButton className="menu-button p-0 p-3">SERVICES</MenuButton>
             }
           >
-            <MenuItem className="menu-button">SEO SERVICE</MenuItem>
+            <MenuItem className="menu-button">
+              <Link to="/seo" className="navigation-link">
+                SEO SERVICE
+              </Link>
+            </MenuItem>
 
             <MenuItem className="menu-button">
               <Link to="/webdesign" className="navigation-link">
@@ -60,10 +72,15 @@ const Header = () => {
             </MenuItem>
           </Menu>
         </Col>
-        <Col md={1}>
-          <Button className="menu-button">BLOGS</Button>
+        <Col
+          md={1}
+          className="p-0 menu-button d-flex align-items-center justify-content-center"
+        >
+          {/* <Link className="navigation-link"> */}
+          BLOGS
+          {/* </Link> */}
         </Col>
-        <Col>
+        <Col className="d-flex align-items-center justify-content-start p-0">
           <Link to="/contact" className="navigation-link">
             <Button className="contact-button">CONTACT US</Button>
           </Link>

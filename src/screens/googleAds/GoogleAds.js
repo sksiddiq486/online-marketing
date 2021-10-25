@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./GoogleAds.css";
 import Footer from "../../components/footerNav/Footer";
+import InfoForms from "../../components/forms/InfoForms";
 
 const GoogleAds = () => {
   return (
@@ -11,6 +12,7 @@ const GoogleAds = () => {
       <RightImageContainer />
       <LeftImageContainer />
       <PPCServices />
+      <InfoForms />
       <Footer />
     </div>
   );
