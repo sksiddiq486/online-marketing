@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./SeoServices.css";
 import { Button, TextField, Input } from "@mui/material";
+import InfoForms from "../../components/forms/InfoForms";
+import Footer from "../../components/footerNav/Footer";
 
 const cardData = [
   {
@@ -85,6 +87,8 @@ const SeoServices = () => {
       <ContentHeader />
       <CardImageContainer />
       <AvatarSeo />
+      <InfoForms />
+      <Footer />
     </Container>
   );
 };
@@ -210,35 +214,35 @@ const ImageContentCard = (props) => {
 
 const AvatarSeo = () => {
   return (
-    <Col>
-      <Col>Why Choose Avatar for SEO Services?</Col>
-      <Col>
+    <Col className="p-5">
+      <Col className="avatar-title">Why Choose Avatar for SEO Services?</Col>
+      <Col className="avatar-subtitle">
         Is your company’s page ranking on the first page in search engine
         results or barely visible?
       </Col>
-      <Col className="d-flex align-items-center justify-content-start p-0 pt-2">
+      <Col className="d-flex align-items-center justify-content-center p-0 pt-2">
         <div className="red-div" />
       </Col>
-      <Row>
+      <Row className="p-0 pt-5">
         <Col>
-          <Col>Choose us to move ahead!</Col>
+          <Col className="choose-head">Choose us to move ahead!</Col>
           <Col className="d-flex align-items-center justify-content-start p-0 pt-2">
             <div className="red-div" />
           </Col>
-          <Row>
+          <Row className="p-5">
             {services.map((item, i) => {
               return (
                 <Col
-                  className="col-6"
+                  className="col-6 p-0 pb-5"
                   //   style={{ background: i == 0 ? "red" : null }}
                 >
-                  <Row className="">
+                  <Row className="d-flex align-items-center">
                     <Col className="col-2">
                       <div className="red-dot">
                         <div className="red-small-dot" />
                       </div>
                     </Col>
-                    <Col>{item}</Col>
+                    <Col className="item-text">{item}</Col>
                   </Row>
                 </Col>
               );
