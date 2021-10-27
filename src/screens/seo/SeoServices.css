@@ -49,7 +49,12 @@
     background-color: #F3F3F3;
 }
 .card-main{
-    background-color: rgb(145, 137, 137);
+    background-color: rgb(240, 234, 234);
+    color: black;
+}
+.card-main:hover{
+    background-color: red;
+    color: #ffffff;
 }
 .cards-header{
     font-size: 1.4vw;
@@ -70,4 +75,24 @@
     width: 5px;
     border-radius: 10px;
     background-color: red;
+}
+.avatar-title{
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.avatar-subtitle{
+    text-align: center;
+    color: #747474;
+}
+.choose-head{
+    font-weight: 700;
+    color: black;
+     font-size: 1.4vw;
+}
+.item-text{
+    font-weight: 900;
+    font-size: 1.3vw;
+    font-family: sans-serif;
 }
