@@ -185,11 +185,6 @@ const CardImageContainer = () => {
         {cardData.map((item, i) => {
           return <ImageContentCard item={item} />;
         })}
-        {/* <ImageContentCard />
-        <ImageContentCard />
-        <ImageContentCard />
-        <ImageContentCard />
-        <ImageContentCard /> */}
       </Row>
     </Col>
   );
@@ -197,7 +192,7 @@ const CardImageContainer = () => {
 
 const ImageContentCard = (props) => {
   return (
-    <Col className="col-4 p-3">
+    <Col className="col-xl-4 col-md-4 col-12 p-3">
       <Col className="card-main p-5">
         <Col className="p-0 pb-5">
           <img
@@ -224,7 +219,7 @@ const AvatarSeo = () => {
         <div className="red-div" />
       </Col>
       <Row className="p-0 pt-5">
-        <Col>
+        <Col className='col-xl-6 col-md-6 col-12'>
           <Col className="choose-head">Choose us to move ahead!</Col>
           <Col className="d-flex align-items-center justify-content-start p-0 pt-2">
             <div className="red-div" />
@@ -249,7 +244,7 @@ const AvatarSeo = () => {
             })}
           </Row>
         </Col>
-        <Col>
+        <Col className='col-xl-6 col-md-6 col-12 d-flex align-items-center justify-content-center '>
           <img src="https://www.avatarstudios.in/assets/images/seo/why-choose-seo-avatar.webp" />
         </Col>
       </Row>

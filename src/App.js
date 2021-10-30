@@ -10,14 +10,22 @@ import SocialMedia from "./screens/socialMedia/SocialMedia";
 import AboutUs from "./screens/about/AboutUs";
 import Header from "./components/menu/Header";
 import SeoServices from "./screens/seo/SeoServices";
+import Button from "@restart/ui/esm/Button";
+import Floting from './components/Floting';
+import Floating from "./components/Floting";
+import { TextField,Fab } from "@mui/material";
+import Confirmation from './components/confirmation/Confirmation';
+
 
 const App = () => {
   return (
     <div>
       <Router>
         <Header />
-
-        <Switch>
+         <Switch>
+         <Route path="/confirmation">
+            <Confirmation />
+          </Route>
           <Route path="/seo">
             <SeoServices />
           </Route>
@@ -41,6 +49,9 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
+      <div className='floating-div'>
+        <Floating/>
+        </div>
     </div>
   );
 };

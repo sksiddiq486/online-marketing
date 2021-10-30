@@ -35,7 +35,7 @@ const RightImageContainer = (props) => {
     <Container fluid>
       <div className="p-5">
         <Row>
-          <Col className="col-8">
+          <Col className="col-xl-8 col-md-8 col-12">
             <Col>
               PPC services are focused on helping your reach out to your
               customers online through paid search advertising. In simple words,
@@ -56,7 +56,7 @@ const RightImageContainer = (props) => {
               and create a customized strategy that is in line with your goals.
             </Col>
           </Col>
-          <Col className="col-4">
+          <Col className="col-xl-4 col-md-4 col-12">
             <img src="https://nitrocdn.com/xGuEWhaDQaHBysQMrdcqeJAtDUzaohMY/assets/static/optimized/rev-a58c691/wp-content/themes/useo/images/licon_words.png" />
           </Col>
         </Row>
@@ -70,10 +70,10 @@ const LeftImageContainer = () => {
     <Container fluid>
       <div className="p-5">
         <Row>
-          <Col className="col-4">
+          <Col className="col-xl-4 col-md-4 col-12">
             <img src="https://nitrocdn.com/xGuEWhaDQaHBysQMrdcqeJAtDUzaohMY/assets/static/optimized/rev-a58c691/wp-content/themes/useo/images/licon_clock.png" />
           </Col>
-          <Col className="col-8">
+          <Col className="col-xl-8 col-md-8 col-12">
             <Col className="left-title">
               Benefit From Our Expertise In PPC Management
             </Col>
@@ -109,16 +109,16 @@ const PPCServices = () => {
       <Col className="ppc-title">Premier services at cost-effective prices</Col>
       <Col className="ppc-subtitle">The PPC services we offer include:</Col>
       <Row>
-        <Col className="col-6 d-flex justify-content-end p-3">
+        <Col className="col-xl-6 col-md-6 col-12 d-flex justify-content-end p-3">
           <div className="pink-div">Google Ads</div>
         </Col>
-        <Col className="col-6 d-flex justify-content-start p-3">
+        <Col className="col-xl-6 col-md-6 col-12 d-flex justify-content-start p-3">
           <div className="pink-div">Google Display Ads</div>
         </Col>
-        <Col className="col-6 d-flex justify-content-end p-3">
+        <Col className="col-xl-6 col-md-6 col-12 d-flex justify-content-end p-3">
           <div className="pink-div">Google Shopping</div>
         </Col>
-        <Col className="col-6 d-flex justify-content-start p-3">
+        <Col className="col-xl-6 col-md-6 col-12 d-flex justify-content-start p-3">
           <div className="pink-div">Google Remarketing</div>
         </Col>
       </Row>

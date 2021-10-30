@@ -147,7 +147,7 @@ const TitleDes = () => {
 
 const ImageTitleContainer = (props) => {
   return (
-    <Col className="col-3">
+    <Col className="col-xl-3 col-md-3 col-12">
       <div className="d-flex align-items-center justify-content-center">
         <img src={props.img} />
       </div>
@@ -163,9 +163,6 @@ const SecondTitleContainer = () => {
       <Col className="d-flex justify-content-center connect-customers">
         Social Media Growth
       </Col>
-      {/* <Col className="d-flex  justify-content-center sub-unique-title">
-      Sway your audience in unique ways.
-    </Col> */}
       <Col className="d-flex  justify-content-center center-text">
         We are an astute social media marketing agency always devising ingenious
         marketing campaigns to deeply dive into the minds of the digital
@@ -182,12 +179,12 @@ const LeftImageContainer = (props) => {
   return (
     <Container fluid>
       <Row>
-        <Col>
+        <Col className='col-12 col-xl-6 col-md-6'>
           <div className="p-5">
-            <img src={props.leftImage} />
+            <img src={props.leftImage} style={{width:'80%'}}/>
           </div>
         </Col>
-        <Col>
+        <Col className='col-12 col-xl-6 col-md-6'>
           <Col className="left-image-title">{props.title}</Col>
           <Col className="left-image-subtitle">{props.subTitle}</Col>
           <Col className="text-color">{props.des1}</Col>
@@ -215,7 +212,7 @@ const RightImageContainer = () => {
   return (
     <Container fluid>
       <Row>
-        <Col>
+        <Col className='col-12 col-xl-6 col-md-6'>
           <div className="p-5 pt-0">
             <Col className="left-image-title">
               Being Social is all that is important
@@ -241,8 +238,8 @@ const RightImageContainer = () => {
             </Col>
           </div>
         </Col>
-        <Col>
-          <img src="https://www.brandingnuts.com/img/being-social.jpg" />
+        <Col className='col-12 col-xl-6 col-md-6'>
+          <img src="https://www.brandingnuts.com/img/being-social.jpg" style={{width:'80%'}}/>
         </Col>
       </Row>
     </Container>

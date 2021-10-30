@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./InfoForms.css";
 import { Button, TextField } from "@mui/material";
+import emailjs from 'emailjs-com';
 import {
   FaFacebookF,
   FaInstagram,
@@ -36,10 +37,23 @@ const InfoForms = (props) => {
   const indexFun = (i) => {
     setIndex(i);
   };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8r8znxi', 'template_bdww2q4', e.target, 'user_gj54AgmKCjEJb8gnClg9N')
+      .then((result) => {
+          console.log(result.text, 'resultttttt');
+      }, (error) => {
+          console.log(error.text,'errrr');
+      });
+  };
+
+
   return (
     <Container className="forms" fluid>
       <Row className="p-5">
-        <Col className="col-6">
+        <Col className="col-xl-6 col-md-6 col-12">
           <Col>— WORK WITH US</Col>
           <Col className="meet-title">
             Let’s team up and build something great.
@@ -87,13 +101,14 @@ const InfoForms = (props) => {
             </Col>
           </Row>
         </Col>
-        <Col className="col-6">
+        <Col className="col-xl-6 col-md-6 col-12">
           <Col className="form">
-            <InputField label="NAME" />
-            <InputField label="EMAIL" />
-            <InputField label="PHONE" />
-            <InputField label="COMPANY NAME" />
-            <Col className="note-text">
+            <form onSubmit={sendEmail}>
+            <InputField label="NAME" name={'name'}/>
+            <InputField label="EMAIL" name={'email'}/>
+            <InputField label="PHONE" name={'phone'}/>
+            <InputField label="MESSAGE" name={'message'}/>
+              <Col className="note-text">
               We are cautious about your privacy. Volga Tigris Digital Marketing
               Agency uses the information you provide to us to contact you about
               our relevant content, products, and services. You can unsubscribe
@@ -101,11 +116,12 @@ const InfoForms = (props) => {
               information, check out our{" "}
               <span className="text-warning">Privacy Policy</span>.
             </Col>
-            <Col className="d-flex align-items-end justify-content-end">
-              <Button variant="outlined" className="outlined-button">
+              <Col className='d-flex justify-content-end'>
+              <Button variant="outlined" className="outlined-button" type='submit'>
                 Submit
               </Button>
-            </Col>
+              </Col>
+              </form>
           </Col>
         </Col>
       </Row>
@@ -118,7 +134,7 @@ export default InfoForms;
 const InputField = (props) => {
   return (
     <div style={{ paddingBottom: "10px" }}>
-      <TextField id="standard-basic" label={props.label} variant="standard" />
+      <TextField id="standard-basic" label={props.label} variant="standard" name={props.name}/>
     </div>
   );
 };

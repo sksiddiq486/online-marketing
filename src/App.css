@@ -40,5 +40,11 @@ body{
     transform: rotate(360deg);
   }
 }
+.floating-div{
+  position:absolute;
+  top:40%;
+  right:1px;
+  z-index:1;
+}
 
 

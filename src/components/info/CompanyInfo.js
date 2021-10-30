@@ -39,7 +39,7 @@ const CompanyInfo = (props) => {
   return (
     <Container className="forms" fluid>
       <Row className="p-5">
-        <Col className="col-6">
+        <Col className="col-xl-6 col-md-6 col-12 pb-2">
           <Col>— WORK WITH US</Col>
           <Col className="meet-title">
             Let’s team up and build something great.
@@ -65,7 +65,7 @@ const CompanyInfo = (props) => {
           <Col className="address-fields">{addressess[index].add2}</Col>
           <Col className="address-fields">{addressess[index].add3}</Col>
         </Col>
-        <Col className="col-6">
+        <Col className="col-xl-6 col-md-6 col-12">
           <Col className="form">
             <Col className="pt-4">
               <Row className="pb-2">
