@@ -16,7 +16,7 @@ const Home = () => {
       <div>
         <ImageCarousel />
       </div>
-      <div className="mains">
+      {/* <div className="mains">
         <Random
           text={"Digital Traffic Makers"}
           // paused={this.state.paused}
@@ -24,7 +24,7 @@ const Home = () => {
           effectDirection="down"
           effectChange={5.0}
         />
-      </div>
+      </div> */}
 
       <ContentDiv />
       <Container fluid className="gif-image pb-4 pt-0">

@@ -9,13 +9,13 @@ const ImageCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/seo.png"
+            src="/assets/images/sliderimage1.gif"
             alt="First slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Search Engine Optimization</h3>
             <p>Drives organic traffic to your website.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
