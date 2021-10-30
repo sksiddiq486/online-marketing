@@ -11,8 +11,7 @@ import { Random } from "react-animated-text";
 
 const Home = () => {
   return (
-    <div>
-      {/* <Header /> */}
+    <Container className='p-0 m-0' fluid>
       <div>
         <ImageCarousel />
       </div>
@@ -27,15 +26,17 @@ const Home = () => {
       </div>
 
       <ContentDiv />
-      <Container fluid className="gif-image pb-4 pt-0">
+      <Container  className="gif-image pb-4 pt-0" fluid>
         <div
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            width:'100%',
+            color:"red"
           }}
         >
-          <img src="https://ittisa.com/wp-content/uploads/2018/03/Home_Services_New_gif.gif" />
+          <img src="https://ittisa.com/wp-content/uploads/2018/03/Home_Services_New_gif.gif" style={{width:'70%'}}/>
         </div>
         <div style={{ color: "skyblue", textAlign: "center" }}>
           THESE SILOS SUFFICED. UNTIL THEY DIDN'T
@@ -54,8 +55,8 @@ const Home = () => {
       <Services />
       <ContentImage />
       <Footer />
-      <Floating />
-    </div>
+      {/* <Floating /> */}
+    </Container>
   );
 };
 
@@ -66,7 +67,7 @@ const ContentDiv = () => {
     <div style={{ backgroundColor: "#eeeeee" }}>
       <img
         src="https://ittisa.com/wp-content/uploads/2017/07/REBELS.png"
-        style={{ width: "100%", resize: "horizontal" }}
+        style={{ width: "100%", resize: "horizontal",height:'80vh' }}
       />
       <Container className="pb-2">
         <div className="content-title">

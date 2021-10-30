@@ -32,7 +32,7 @@ export default AboutUs;
 const RightImageContainer = (props) => {
   return (
     <Row className="right-main-row">
-      <Col>
+      <Col className='col-xl-6 col-12 col-md-6'>
         <div className="right-container-title pb-3">
           We Create Leads Not Just Traffic
         </div>
@@ -56,8 +56,8 @@ const RightImageContainer = (props) => {
           businesses.
         </Col>
       </Col>
-      <Col>
-        <img src="https://www.brandingnuts.com/img/create-img.png" />
+      <Col className='col-xl-6 col-12 col-md-6'>
+        <img src="https://www.brandingnuts.com/img/create-img.png" style={{width:'100%'}}/>
       </Col>
     </Row>
   );
@@ -82,20 +82,20 @@ const TeamImages = () => {
       </div>
       <RedContainer />
       <Row>
-        <Col className="col-4 d-flex justify-content-center">
+        <Col className="col-xl-4 d-flex justify-content-center">
           <div>
             <img src="https://www.brandingnuts.com/img/first-one.png" />
 
             <SocialIcons />
           </div>
         </Col>
-        <Col className="col-4 d-flex justify-content-center">
+        <Col className="col-xl-4 d-flex justify-content-center">
           <div>
             <img src="https://www.brandingnuts.com/img/second-one.png" />
             <SocialIcons />
           </div>
         </Col>
-        <Col className="col-4 d-flex justify-content-center">
+        <Col className="col-xl-4 d-flex justify-content-center">
           <div>
             <img src="https://www.brandingnuts.com/img/third-one.png" />
             <SocialIcons />
