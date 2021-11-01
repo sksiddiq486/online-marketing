@@ -1,10 +1,12 @@
-import React from "react";
-// import "./Floating.css";
+import React,{useState} from "react";
+import "./Floating.css";
 import Button from "@restart/ui/esm/Button";
 import { Container, Row, Col } from "react-bootstrap";
 
 
-const Floating = () => {
+const Floating = (props) => {
+  const [chatVisible, setChatVisible] = useState(false);
+
   const linkClick = (e, link) => {
     e.preventDefault();
     window.open(link);
@@ -54,6 +56,14 @@ const Floating = () => {
             }
           />
         </Col>
+        <div className='chat-div'>
+          <img
+            src="https://img.icons8.com/color/48/000000/chat--v1.png"
+            className="logo"
+            style={{ height: "30px", width: "30px" }}
+            onClick={(e) =>props.chatClick()}
+          />
+        </div>
     </Container>
   );
 };

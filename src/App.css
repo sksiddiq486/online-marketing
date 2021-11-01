@@ -41,7 +41,7 @@ body{
   }
 }
 .floating-div{
-  position:absolute;
+  position:fixed;
   top:40%;
   right:1px;
   z-index:1;

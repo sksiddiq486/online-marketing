@@ -5,8 +5,22 @@ import { Button, TextField, Input } from "@mui/material";
 import CompanyInfo from "../../components/info/CompanyInfo";
 import Footer from "../../components/footerNav/Footer";
 import { Wave, Random } from "react-animated-text";
+import emailjs from 'emailjs-com';
 
 const ContactUs = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8r8znxi', 'template_bdww2q4', e.target, 'user_gj54AgmKCjEJb8gnClg9N')
+      .then((result) => {
+          console.log(result.text, 'resultttttt');
+      }, (error) => {
+          console.log(error.text,'errrr');
+      });
+  };
+
+
   return (
     <Container className="p-0" fluid>
       <div className="back-image">
@@ -14,11 +28,12 @@ const ContactUs = () => {
           <div style={{ width: "64%" }}>
             <Col className="form-title">Let’s Talk Business</Col>
             <Col className="form-bredGrum">Home {">>"} Contact Us</Col>
+            <form onSubmit={sendEmail}>
             <Col>
-              <InputField placeholder="NAME" />
-              <InputField placeholder="EMAIL" />
-              <InputField placeholder="PHONE" />
-              <InputField placeholder="COMPANY NAME" />
+              <InputField placeholder="NAME" name={'name'}/>
+              <InputField placeholder="EMAIL" name={'email'}/>
+              <InputField placeholder="PHONE" name={'phone'}/>
+              <InputField placeholder="MESSAGE" name={'message'}/>
             </Col>
 
             <Col className="note-texts">
@@ -30,10 +45,12 @@ const ContactUs = () => {
               <span className="text-warning">Privacy Policy</span>.
             </Col>
             <Col className="d-flex align-items-end justify-content-start">
-              <Button variant="outlined" className="submit-button">
+              <Button variant="outlined" className="submit-button" type='submit'>
                 Submit
               </Button>
             </Col>
+            </form>
+
           </div>
         </div>
         <div className="transparent-div d-flex align-items-center justify-content-center">
@@ -66,7 +83,7 @@ const InputField = (props) => {
         padding: "10px",
       }}
     >
-      <input placeholder={props.placeholder} className="input-field" />
+      <input placeholder={props.placeholder} className="input-field" name={props.name}/>
     </div>
   );
 };
