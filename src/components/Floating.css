@@ -5,3 +5,9 @@
     right:30px
     /* background: red; */
 }
+.chat-div{
+    height:30vh;
+    display:flex;
+    align-items:end;
+    padding-right:1vw;
+}

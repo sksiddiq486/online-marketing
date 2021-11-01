@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Carousel from "react-bootstrap/Carousel";
 import Home from "./screens/Home";
@@ -15,11 +15,18 @@ import Floting from './components/Floting';
 import Floating from "./components/Floting";
 import { TextField,Fab } from "@mui/material";
 import Confirmation from './components/confirmation/Confirmation';
-
+import Chatbot from "react-chatbot-kit";
+import ChatBot from "./screens/chat/ChatBot";
 
 const App = () => {
+  const [chatStatus, setChatStatus] = useState(false)
+
+  const chatClick=()=>{
+      setChatStatus(!chatStatus);
+  }
   return (
     <div>
+      
       <Router>
         <Header />
          <Switch>
@@ -50,8 +57,12 @@ const App = () => {
         </Switch>
       </Router>
       <div className='floating-div'>
-        <Floating/>
+        <Floating chatClick={chatClick}/>
         </div>
+        {chatStatus?(
+        <div style={{position:'fixed',top:'50px'}}>
+        <ChatBot/>
+        </div>):null}
     </div>
   );
 };
