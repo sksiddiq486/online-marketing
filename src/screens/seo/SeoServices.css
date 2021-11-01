@@ -53,7 +53,7 @@
     color: black;
 }
 .card-main:hover{
-    background-color: red;
+    background-color: #ffc400;
     color: #ffffff;
 }
 .cards-header{

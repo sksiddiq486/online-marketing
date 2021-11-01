@@ -99,7 +99,7 @@ const HeaderImage = () => {
   return (
     <Col className="top-col d-flex align-items-center justify-content-center">
       <div>
-        <Col className="header-title">Making your Presence Worldwide</Col>
+        <Col className="header-title">Search Engine Optimization (SEO)</Col>
         <Col className="d-flex align-items-center justify-content-center p-0 pt-2">
           <div className="red-div" />
         </Col>
@@ -136,11 +136,11 @@ const ContentHeader = () => {
       </Col>
       <Col className="p-0 pt-5 content-text-col">
         <Col className="pt-2">
-          Let’s take a guess… You are looking for a strategy to improve the
-          digital visibility of your business, you want increased traffic,
-          higher revenue and staying on top in the books of Google is your
-          resolution in this digital era. Well, you have landed on the right
-          place - the best SEO company in Bangalore.
+          Digital Traffic Makers diligently research both your business and  
+          and its competitors and then determine which steps need to be taken
+          in order to maximize your business’s search results. The research 
+          and the audit, both together help us to form an SEO strategy that 
+          is ideal for your unique website/business.
         </Col>
         <Col className="pt-2">
           SEO has a major impact in everything from traffic to sales. Avatar

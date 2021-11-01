@@ -13,7 +13,7 @@ const Services = () => {
         <Col className="col-xl-4 col-12 col-md-4">
         <div className='d-flex align-items-center justify-content-center'>
             <img
-              src="https://ittisa.com/wp-content/uploads/2019/09/cx9waHy_1.png"
+              src="/assets/images/services1.jpg"
               className="image"
             />          </div>
 
@@ -25,7 +25,7 @@ const Services = () => {
         <Col className="col-xl-4 col-12 col-md-4">
           <div className='d-flex align-items-center justify-content-center'>
           <img
-            src="https://ittisa.com/wp-content/uploads/2019/08/KTAN8Nl-1-1-1.png"
+            src="/assets/images/services2.jpg"
             className="image"
           />
           </div>
@@ -38,7 +38,7 @@ const Services = () => {
         <div className='d-flex align-items-center justify-content-center'>
 
           <img
-            src="https://www.ittisa.com/wp-content/uploads/2019/08/nQc6ReG_1_1.png"
+            src="/assets/images/services3.jpg"
             className="image"
           />
           </div>

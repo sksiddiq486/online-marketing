@@ -13,7 +13,7 @@ const Floating = () => {
     <Container className=''>
       <Col className='p-2'>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfcwxpxBo_uFK-p4fNNG-2XEJvhLq01ypfQ&usqp=CAU"
+            src="/assets/images/LINK.png"
             className="logo"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
@@ -26,7 +26,7 @@ const Floating = () => {
         </Col>
         <Col className='p-2'>
           <img
-            src="/assets/instagram.png"
+            src="/assets/images/INSTA.png"
             className="logo"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
@@ -36,11 +36,21 @@ const Floating = () => {
         </Col>
         <Col className='p-2'>
           <img
-            src="/assets/facebook.png"
+            src="/assets/images/FB.png"
             className="logo"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
               linkClick(e, "https://www.facebook.com/digitaltrafficmakers")
+            }
+          />
+        </Col>
+        <Col className='p-2'>
+          <img
+            src="/assets/images/PINT.png"
+            className="logo"
+            style={{ height: "30px", width: "30px" }}
+            onClick={(e) =>
+              linkClick(e, "https://www.pinterest.com/dtrafficmakers")
             }
           />
         </Col>

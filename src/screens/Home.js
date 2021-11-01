@@ -36,7 +36,7 @@ const Home = () => {
             color:"red"
           }}
         >
-          <img src="https://ittisa.com/wp-content/uploads/2018/03/Home_Services_New_gif.gif" style={{width:'70%'}}/>
+          <img src="/assets/images/brand1.gif" style={{width:'70%'}}/>
         </div>
         <div style={{ color: "skyblue", textAlign: "center" }}>
           THESE SILOS SUFFICED. UNTIL THEY DIDN'T
@@ -131,7 +131,7 @@ const ContentImage = () => {
           service from dubai to the world.
         </Col>
         <Col>
-          <img src="/assets/keypad.jpg" style={{ width: "100%" }} />
+          <img src="/assets/images/computerimage.gif" style={{ width: "100%" }} />
         </Col>
       </Container>
     </div>

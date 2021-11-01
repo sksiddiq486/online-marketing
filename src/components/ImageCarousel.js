@@ -20,38 +20,38 @@ const ImageCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/pay.png"
+            src="/assets/images/sliderimage2.gif"
             alt="Second slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Pay Per Click</h3>
             <p>pay for your traffic generated keyword.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/sem.png"
+            src="/assets/images/sliderimage3.gif"
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Search Engine Marketing</h3>
             <p>Raise your quality leads using search engine</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/php.png"
+            src="/assets/images/sliderimage4.gif"
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Web Development and App development</h3>
             <p>Build your Quality website with us</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         {/* <Floating /> */}
       </Carousel>
