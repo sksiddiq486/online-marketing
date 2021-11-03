@@ -1,6 +1,14 @@
 .bottom-container{
-    background-color: #ebccfe;
+    background-color: #ece9c3;
+    height: 60vh;
+overflow-y: scroll;
+-ms-overflow-style: none;
+  scrollbar-width: none;
+
 }
+.bottom-container::-webkit-scrollbar {
+    display: none;
+  }
 .text-para{
     text-align: center;
     color: #ffffff;
@@ -18,4 +26,20 @@
     font-weight: 800;
     font-size: 2vw;
     right:15vw
+}
+.bold-title{
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+.text-pattern{
+    text-align: justify;
+}
+.profile-image{
+    height: 5vw;
+    width: 5vw;
+    border-radius: 20vw;
+}
+.custom-card{
+    width: 40%;
 }

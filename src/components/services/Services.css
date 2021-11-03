@@ -4,16 +4,15 @@
     text-align: center;
 }
 .image{
-    height: 50vh;
-    width: 25vw;
+    height: 15vh;
+    width: 15vw;
     zoom: 1;
-    /* background-color: red; */
 }
 .image:hover{
     zoom: 1.1;
 }
 .heading{
-    font-size: 1.7vw;
+    font-size: 1.2vw;
     text-align: center;
     font-weight: bold;
     color: grey;
@@ -45,4 +44,15 @@ button{
 }
 .col-padd{
     padding-left: 30px;
+}
+.para-text{
+    text-align: justify;
+    /* background-color: violet; */
+    padding: 0px 20px 20px 20px;
+}
+.click-button{
+    background-color: black;
+    color: #ffc400;
+    border-radius: 30px;
+    padding: 5px 15px ;
 }
