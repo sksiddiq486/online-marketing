@@ -2,13 +2,10 @@ import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-// import { AiFillAccountBook } from "react-icons/ai";
 import {
   FaFacebookF,
   FaInstagram,
-  FaLinkedin,
-  ImLinkedin2,
+  FaLinkedin
 } from "react-icons/fa";
 
 const data = [

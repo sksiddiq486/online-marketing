@@ -1,7 +1,5 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Floating from "./Floting";
-
 const ImageCarousel = () => {
   return (
     <div style={{ zIndex: 0 }}>
