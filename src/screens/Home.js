@@ -5,6 +5,29 @@ import "./Home.css";
 import Services from "../components/services/Services";
 import Footer from "../components/footerNav/Footer";
 
+const reviewData=[
+  {
+    id:1,
+    img:'',
+    comment:'In today’s world where the cutthroat competition prevails your brand will have to stand on its own. Our company is armed with creative intelligence with visionary ideas and original thinking. We believe in dedication to hard work with integrity and honesty.'
+  },
+  {
+    id:2,
+    img:'',
+    comment:'In today’s world where the cutthroat competition prevails your brand will have to stand on its own. Our company is armed with creative intelligence with visionary ideas and original thinking. We believe in dedication to hard work with integrity and honesty.'
+  },
+  {
+    id:3,
+    img:'',
+    comment:'In today’s world where the cutthroat competition prevails your brand will have to stand on its own. Our company is armed with creative intelligence with visionary ideas and original thinking. We believe in dedication to hard work with integrity and honesty.'
+  },
+  {
+    id:4,
+    img:'',
+    comment:'In today’s world where the cutthroat competition prevails your brand will have to stand on its own. Our company is armed with creative intelligence with visionary ideas and original thinking. We believe in dedication to hard work with integrity and honesty.'
+  },
+];
+
 const Home = () => {
   return (
     <Container className='p-0 m-0' fluid>
@@ -60,76 +83,40 @@ export default Home;
 
 const ContentDiv = () => {
   return (
-    <div style={{ backgroundColor: "#eeeeee" }}>
-      <img
-        src="https://ittisa.com/wp-content/uploads/2017/07/REBELS.png"
-        style={{ width: "100%", resize: "horizontal",height:'80vh' }}
-      />
-      <Container className="pb-2">
-        <div className="content-title">
-          Digital Marketing Agency Dubai, UAE
+      <Container className="p-5" fluid>
+        <div className="bold-title">
+          About Us
         </div>
-        <div className="content-title">-A GOOGLE PARTNER AGENCY-</div>
-        <div className="content-title">
+        <div className="d-flex align-items-center justify-content-center">
+        <div className="w-50 text-pattern">
           We are a team of highly motivated, passionate millennials for whom
-          digital marketing is a way of life. Ittisa,{" "}
-          <strong>one of the best digital marketing companies in Dubai</strong>,
-          <span>
+          digital marketing is a way of life. Ittisa,
+          one of the best digital marketing companies in Dubai
             believes in building world-class digital experiences that easily
             metamorphose into offline experiences and help brands tell stories,
             build communities and transform their business.
-          </span>
+        </div>
         </div>
       </Container>
-    </div>
   );
 };
 
 const ContentImage = () => {
   return (
-    <div
-    // className="background-div"
-    >
-      <Container fluid className="bottom-container pb-3">
-        <Col
-          className="text-para"
-          style={{ fontSize: "60px", fontWeight: "bold" }}
-        >
-          Web Design
-        </Col>
-        <Col className="text-para" style={{ fontSize: "30px", color: "black" }}>
-          in Dubai
-        </Col>
-        <Col className="text-para pb-2">
-          In today’s world where the cutthroat competition prevails your brand
-          will have to stand on its own. Our company is armed with creative
-          intelligence with visionary ideas and original thinking. We believe in
-          dedication to hard work with integrity and honesty. At Element 8 we
-          are passionate people who think in delivering outstanding results. At
-          Element 8 you can count on us to be an integrated communications
-          agency with a good track record that can take your company and frame
-          your project as an extension of the core promise of your brand.
-        </Col>
-        <Col className="text-para pb-2">
-          Our company has a profound sense of teamwork that they use to satisfy
-          our customers need. Comparing other web design company Dubai, in our
-          company we share truthfulness, modesty, and laughter. The staff is
-          made of a diversified background of talents and knowledge and uses
-          this knowledge to keep the creative juices flowing making this a
-          strong foundation
-        </Col>
-        <Col className="text-para">
-          Because we love what we do and because we want our clients to feel the
-          same way about our work, Element 8 keeps everything 100% in-house.
-          From designing, development, or digital marketing.We take pride in our
-          team, in which every member aims to contribute to our mutual goal – to
-          deliver and maintain, at all means necessary, the highest quality of
-          service from dubai to the world.
-        </Col>
-        <Col>
-          <img src="/assets/images/computerimage.gif" style={{ width: "100%" }} />
-        </Col>
+      <Container  className="bottom-container pb-3 pt-3" fluid>
+        {reviewData.map((item,i)=>{
+          return(
+            <Row className='p-3'>
+            <Col className='col-4 d-flex align-items-start justify-content-end' >
+            <img src="/assets/images/computerimage.gif" className="profile-image" />
+            </Col>
+            <Col className='col-8 card w-50 p-3'>
+              <Col>{item.comment}</Col>
+            </Col>
+            </Row>
+          )
+        })}
+
       </Container>
-    </div>
   );
 };
