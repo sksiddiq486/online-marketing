@@ -99,26 +99,9 @@ const HeaderImage = () => {
   return (
     <Col className="top-col d-flex align-items-center justify-content-center">
       <div>
-        <Col className="header-title">Search Engine Optimization (SEO)</Col>
+        <Col className="header-title">Branding</Col>
         <Col className="d-flex align-items-center justify-content-center p-0 pt-2">
           <div className="red-div" />
-        </Col>
-        <Col className="d-flex align-items-center justify-content-center p-0 pt-5">
-          <Button
-            variant="outlined"
-            color="error"
-            style={{
-              color: "white",
-              backgroundColor: "#747474",
-              borderWidth: "3px",
-              borderColor: "red",
-              height: "55px",
-              width: "130px",
-              borderRadius: 0,
-            }}
-          >
-            CALL US
-          </Button>
         </Col>
       </div>
     </Col>
@@ -136,7 +119,7 @@ const ContentHeader = () => {
       </Col>
       <Col className="p-0 pt-5 content-text-col">
         <Col className="pt-2">
-          Digital Traffic Makers diligently research both your business and  
+          Digital Traffic Makers diligently research both your business and
           and its competitors and then determine which steps need to be taken
           in order to maximize your business’s search results. The research 
           and the audit, both together help us to form an SEO strategy that 

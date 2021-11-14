@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./Floating.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 
 const Floating = (props) => {

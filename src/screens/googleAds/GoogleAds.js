@@ -24,7 +24,7 @@ const ImageContainer = () => {
   return (
     <Container fluid>
       <Row className="image-cons">
-        <div className='d-flex align-items-center justify-content-center'>Website Design & Development Services</div>
+        <div className='d-flex align-items-center justify-content-center'>Mobile Application Development</div>
       </Row>
     </Container>
   );

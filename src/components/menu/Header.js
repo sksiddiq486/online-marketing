@@ -11,12 +11,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const Header = () => {
   return (
     <Container fluid className="p-3 d-lg-block d-none">
-      <Row className="">
-        <Col md={6}>
+      <Row className="pl-5">
+        <Col md={6} >
+          <div className='logo-col'>
           <img
             src="/assets/images/logo.png"
             className="logo"
           />
+          </div>
         </Col>
         <Col
           md={1}

@@ -1,6 +1,9 @@
 .logo{
     height: 8vh;
-    width: 12vw;
+    width: 16vw;
+}
+.logo:hover{
+    cursor: pointer;
 }
 .menu-button{
     border:none;
@@ -17,6 +20,9 @@
 .navigation-link{
     color: black;
     text-decoration: none;
+}
+.logo-col{
+    padding-left: 50px;
 }
 /* .padding-top{
     padding-top: 50px;

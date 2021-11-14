@@ -15,11 +15,11 @@ const addressess = [
   {
     id: 1,
     buttonTitle: "Dubai",
-    title: "AJMAN OFFICE",
-    add1: "Al Dhabi building",
-    add2: "King Faisal Street",
-    add3: "Al Nuaimia 2",
-    add4: "Ajman",
+    title: "Dubai Office",
+    add1: "2108",
+    add2: "Business Bay",
+    add3: "Dubai",
+    add4: "UAE",
   },
   // {
   //   id: 2,
@@ -39,6 +39,11 @@ const InfoForms = (props) => {
 
   const indexFun = (i) => {
     setIndex(i);
+  };
+
+  const linkClick = (e, link) => {
+    e.preventDefault();
+    window.open(link);
   };
 
   const sendEmail = (e) => {
@@ -86,24 +91,66 @@ const InfoForms = (props) => {
           <Col className="address-fields">{addressess[index].add3}</Col>
           <Col className="pt-4">
             <Row className="pb-2">
-              <Col className="col-4 form-info-title">LETS CONNECT</Col>
-              <Col className="form-info-title">CALL US AT</Col>
-            </Row>
-            <Row className="pb-3">
-              <Col className="col-4 form-info-value">info@marketing.com</Col>
-              <Col className="form-info-value">+971234677</Col>
+              <Col>
+              <Col className="col-auto form-info-title">LETS CONNECT</Col>
+              <Col className="col-auto form-info-value">media@digitaltrafficmakers.com</Col>
+              </Col>
+            <Col>
+            <Col className="form-info-title">CALL US AT</Col>
+              <Col className="form-info-value">+971 45 686 290</Col>
+              </Col>
             </Row>
           </Col>
           <Col className="form-info-title">FOLLOW US ON</Col>
           <Row className="p-3">
             <Col className="col-auto p-1">
-              <FaInstagram />
+              {/* <FaInstagram /> */}
+              <img
+            src="/assets/images/INSTA.png"
+            className="logo"
+            alt="loading"
+            style={{ height: "20px", width: "20px" }}
+            onClick={(e) =>
+              linkClick(e, "https://www.instagram.com/digitaltrafficmakers/")
+            }
+          />
             </Col>
             <Col className="col-auto p-1">
-              <FaFacebookF />
+              {/* <FaFacebookF /> */}
+              <img
+            src="/assets/images/FB.png"
+            className="logo"
+            alt="loading"
+            style={{ height: "20px", width: "20px" }}
+            onClick={(e) =>
+              linkClick(e, "https://www.facebook.com/digitaltrafficmakers")
+            }
+          />
             </Col>
             <Col className="col-auto p-1">
-              <FaLinkedin />
+              <img
+            src="/assets/images/PINT.png"
+            className="logo"
+            alt="loading"
+            style={{ height: "20px", width: "20px" }}
+            onClick={(e) =>
+              linkClick(e, "https://www.pinterest.com/dtrafficmakers")
+            }
+          />
+            </Col>
+            <Col className="col-auto p-1">
+            <img
+            src="/assets/images/LINK.png"
+            className="logo"
+            alt="loading"
+            style={{ height: "20px", width: "20px" }}
+            onClick={(e) =>
+              linkClick(
+                e,
+                "https://www.linkedin.com/company/digital-traffic-makers"
+              )
+            }
+          />
             </Col>
           </Row>
         </Col>

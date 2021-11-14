@@ -1,6 +1,9 @@
 .top-banner{
     background-color: #1aa0fb;
-    padding-bottom: 20vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .start-button{
     border-radius: 5px;
