@@ -1,10 +1,13 @@
 import React,{useState} from "react";
 import "./Floating.css";
+<<<<<<< HEAD
 import { Container, Row, Col } from "react-bootstrap";
+=======
+import { Container, Col } from "react-bootstrap";
+>>>>>>> 55252b34cb3d674f53da31a4d974e559e210668a
 
 
 const Floating = (props) => {
-  const [chatVisible, setChatVisible] = useState(false);
 
   const linkClick = (e, link) => {
     e.preventDefault();
@@ -16,6 +19,7 @@ const Floating = (props) => {
           <img
             src="/assets/images/LINK.png"
             className="logo"
+            alt="loading"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
               linkClick(
@@ -29,6 +33,7 @@ const Floating = (props) => {
           <img
             src="/assets/images/INSTA.png"
             className="logo"
+            alt="loading"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
               linkClick(e, "https://www.instagram.com/digitaltrafficmakers/")
@@ -39,6 +44,7 @@ const Floating = (props) => {
           <img
             src="/assets/images/FB.png"
             className="logo"
+            alt="loading"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
               linkClick(e, "https://www.facebook.com/digitaltrafficmakers")
@@ -49,6 +55,7 @@ const Floating = (props) => {
           <img
             src="/assets/images/PINT.png"
             className="logo"
+            alt="loading"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>
               linkClick(e, "https://www.pinterest.com/dtrafficmakers")
@@ -60,6 +67,7 @@ const Floating = (props) => {
           <img
             src="https://img.icons8.com/color/48/000000/chat--v1.png"
             className="logo"
+            alt="loading"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>props.chatClick()}
           />

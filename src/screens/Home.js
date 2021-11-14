@@ -1,13 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
 import ImageCarousel from "../components/ImageCarousel";
-import Header from "../components/menu/Header";
 import "./Home.css";
 import Services from "../components/services/Services";
 import Footer from "../components/footerNav/Footer";
-import Floating from "../components/Floting";
-import { Random } from "react-animated-text";
 
 const reviewData=[
   {
@@ -59,7 +55,7 @@ const Home = () => {
             color:"red"
           }}
         >
-          <img src="/assets/images/brand1.gif" style={{width:'70%'}}/>
+          <img src="/assets/images/brand1.gif" style={{width:'70%', height:'50%'}}/>
         </div>
         <div style={{ color: "skyblue", textAlign: "center" }}>
           THESE SILOS SUFFICED. UNTIL THEY DIDN'T

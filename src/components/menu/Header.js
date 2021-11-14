@@ -42,32 +42,32 @@ const Header = () => {
           >
             <MenuItem className="menu-button">
               <Link to="/seo" className="navigation-link">
-                SEO SERVICE
+                BRANDING
               </Link>
             </MenuItem>
 
             <MenuItem className="menu-button">
               <Link to="/webdesign" className="navigation-link">
-                WEB DESIGN & DEVELOPMENT{" "}
+                WEBSITE DEVELOPMENT{" "}
               </Link>
             </MenuItem>
-            <SubMenu label="SOCIAL MEDIA MARKETING" className="menu-button">
+            <SubMenu label="DIGITAL MARKETING" className="menu-button">
               <Link to="/social" className="navigation-link">
-                <MenuItem className="menu-button">FACEBOOK MARKETING</MenuItem>
+                <MenuItem className="menu-button">SOCIAL MEDIA MARKETING</MenuItem>
               </Link>
               <Link to="/social" className="navigation-link">
-                <MenuItem className="menu-button">INSTAGRAM MARKETING</MenuItem>
+                <MenuItem className="menu-button">SERACH ENGINE MARKETING</MenuItem>
               </Link>
               <Link to="/social" className="navigation-link">
-                <MenuItem className="menu-button">LINKEDIN MARKETING</MenuItem>
+                <MenuItem className="menu-button">SEARCH ENGINE OPTIMIZATION</MenuItem>
               </Link>
               <Link to="/social" className="navigation-link">
-                <MenuItem className="menu-button">YOUTUBE MARKETING</MenuItem>
+                <MenuItem className="menu-button">EMAIL MARKETING</MenuItem>
               </Link>
             </SubMenu>
             <MenuItem className="menu-button">
               <Link to="/ads" className="navigation-link">
-                GOOGLE ADS
+                MOBILE APPLICATION DEVELOPMENT
               </Link>
             </MenuItem>
           </Menu>
