@@ -55,7 +55,7 @@ const Home = () => {
             color:"red"
           }}
         >
-          <img src="/assets/images/brand1.gif" style={{width:'70%'}}/>
+          <img src="/assets/images/brand1.gif" style={{width:'70%', height:'50%'}}/>
         </div>
         <div style={{ color: "skyblue", textAlign: "center" }}>
           THESE SILOS SUFFICED. UNTIL THEY DIDN'T
