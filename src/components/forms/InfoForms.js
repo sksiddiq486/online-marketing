@@ -15,11 +15,11 @@ const addressess = [
   {
     id: 1,
     buttonTitle: "Dubai",
-    title: "AJMAN OFFICE",
-    add1: "Al Dhabi building",
-    add2: "King Faisal Street",
-    add3: "Al Nuaimia 2",
-    add4: "Ajman",
+    title: "Dubai Office",
+    add1: "2108",
+    add2: "Business Bay",
+    add3: "Dubai",
+    add4: "UAE",
   },
   // {
   //   id: 2,
@@ -90,8 +90,8 @@ const InfoForms = (props) => {
               <Col className="form-info-title">CALL US AT</Col>
             </Row>
             <Row className="pb-3">
-              <Col className="col-4 form-info-value">info@marketing.com</Col>
-              <Col className="form-info-value">+971234677</Col>
+              <Col className="col-4 form-info-value">media@digitaltrafficmakers.com</Col>
+              <Col className="form-info-value">+971 45 686 290</Col>
             </Row>
           </Col>
           <Col className="form-info-title">FOLLOW US ON</Col>
