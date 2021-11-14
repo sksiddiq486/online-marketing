@@ -14,7 +14,7 @@ const Header = () => {
       <Row className="">
         <Col md={6}>
           <img
-            src="https://digitaltrafficmakers.com/wp-content/uploads/2021/10/cropped-DTM-Cover-1.jpg"
+            src="/assets/images/logo.png"
             className="logo"
           />
         </Col>
@@ -31,7 +31,7 @@ const Header = () => {
           className="p-0 d-flex align-items-center justify-content-center"
         >
           <Link to="/aboutus" className="navigation-link menu-button">
-            ABOUTUS
+            ABOUT US
           </Link>
         </Col>
         <Col md={1} className="">
@@ -76,9 +76,9 @@ const Header = () => {
           md={1}
           className="p-0 menu-button d-flex align-items-center justify-content-center"
         >
-          {/* <Link className="navigation-link"> */}
+          <Link to='/blog' className="navigation-link">
           BLOGS
-          {/* </Link> */}
+          </Link>
         </Col>
         <Col className="d-flex align-items-center justify-content-start p-0">
           <Link to="/contact" className="navigation-link">

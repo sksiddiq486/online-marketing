@@ -30,3 +30,10 @@ margin-top: 20px;
 .ppc-container{
     background-color: #f4f4f4;
 }
+.image-cons{
+    background-image: url('https://www.volgatigris.com/images/banner/about-us-banner.jpg');
+    height: 50vh;
+    color: ivory;
+    font-size: 4vw;
+    text-align: center;
+}

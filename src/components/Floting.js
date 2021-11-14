@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import "./Floating.css";
-import Button from "@restart/ui/esm/Button";
 import { Container, Row, Col } from "react-bootstrap";
 
 
@@ -56,14 +55,26 @@ const Floating = (props) => {
             }
           />
         </Col>
-        <div className='chat-div'>
+        <Row>
+        {/* <Col className='chat-div'>
           <img
             src="https://img.icons8.com/color/48/000000/chat--v1.png"
             className="logo"
             style={{ height: "30px", width: "30px" }}
             onClick={(e) =>props.chatClick()}
           />
-        </div>
+        </Col> */}
+        <Col className='chat-div'>
+          <a href="https://wa.me/message/E5NHHYQCKMKHF1" target='_blank'>
+          <img
+            src="/assets/images/whatsapp.png"
+            className="logo"
+            style={{ height: "40px", width: "40px" }}
+            // onClick={(e) =>props.chatClick()}
+          />
+          </a>
+        </Col>
+        </Row>
     </Container>
   );
 };

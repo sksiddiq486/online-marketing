@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   ImLinkedin2,
 } from "react-icons/fa";
+import { useHistory } from 'react-router-dom';
 
 const addressess = [
   {
@@ -20,19 +21,21 @@ const addressess = [
     add3: "Al Nuaimia 2",
     add4: "Ajman",
   },
-  {
-    id: 2,
-    buttonTitle: "Sharjah",
-    title: "SHARJAH OFFICE",
-    add1: "Gulf Sky Building",
-    add2: "Office No : 415",
-    add3: "Sharjah",
-    add4: "",
-  },
+  // {
+  //   id: 2,
+  //   buttonTitle: "Sharjah",
+  //   title: "SHARJAH OFFICE",
+  //   add1: "Gulf Sky Building",
+  //   add2: "Office No : 415",
+  //   add3: "Sharjah",
+  //   add4: "",
+  // },
 ];
 
 const InfoForms = (props) => {
   const [index, setIndex] = useState(0);
+
+  const history = useHistory();
 
   const indexFun = (i) => {
     setIndex(i);
@@ -44,6 +47,9 @@ const InfoForms = (props) => {
     emailjs.sendForm('service_8r8znxi', 'template_bdww2q4', e.target, 'user_gj54AgmKCjEJb8gnClg9N')
       .then((result) => {
           console.log(result.text, 'resultttttt');
+          if(result.text == 'OK'){
+            history.push("/success");
+          }
       }, (error) => {
           console.log(error.text,'errrr');
       });

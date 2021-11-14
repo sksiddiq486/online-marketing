@@ -23,8 +23,8 @@ export default GoogleAds;
 const ImageContainer = () => {
   return (
     <Container fluid>
-      <Row className="image-div">
-        <div>Website Design & Development Services</div>
+      <Row className="image-cons">
+        <div className='d-flex align-items-center justify-content-center'>Website Design & Development Services</div>
       </Row>
     </Container>
   );

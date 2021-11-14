@@ -13,9 +13,9 @@ const SocialMedia = () => {
       <Col className="top-banner">
         <Col className="top-title">Social Media Marketing</Col>
         <Col className="sub-title">We are a Promethean</Col>
-        <Col className="d-flex  justify-content-center">
+        {/* <Col className="d-flex  justify-content-center">
           <Button className="start-button">GET STARTED NOW</Button>
-        </Col>
+        </Col> */}
       </Col>
       <TitleDes />
       <SecondTitleContainer />
