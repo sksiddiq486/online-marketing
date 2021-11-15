@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./App.css";
 import Home from "./screens/Home";
 import WebDesignPage from "./screens/second/WebDesignPage";
@@ -16,15 +16,31 @@ import Blog from "./screens/blogs/Blog";
 import BlogDescription from "./screens/blogs/BlogDescription";
 
 const App = () => {
-  const [chatStatus, setChatStatus] = useState(false)
+  const [chatStatus, setChatStatus] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const chatClick=()=>{
       setChatStatus(!chatStatus);
   }
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+    console.log(position,'poss')
+};
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
   return (
     <div>
       <Router>
-        <Header />
+        <Header position={scrollPosition}/>
          <Switch>
          <Route path="/blogdescription">
             <BlogDescription />

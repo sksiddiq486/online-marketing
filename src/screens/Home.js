@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ImageCarousel from "../components/ImageCarousel";
 import "./Home.css";
@@ -29,6 +29,9 @@ const reviewData=[
 ];
 
 const Home = () => {
+
+
+
   return (
     <Container className='p-0 m-0' fluid>
       <div>

@@ -24,7 +24,10 @@
 .logo-col{
     padding-left: 50px;
 }
-/* .padding-top{
-    padding-top: 50px;
-    color:pink
-} */
+.head-container{
+    position: fixed;
+    width: 100vw;
+    top:0px;
+    z-index: 2;
+    background-color: #ffffff
+}

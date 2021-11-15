@@ -46,5 +46,8 @@ body{
   right:1px;
   z-index:1;
 }
+.site-margin{
+  padding-top: 80px;
+}
 
 

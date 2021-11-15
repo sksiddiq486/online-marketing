@@ -8,9 +8,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <Container fluid className="p-3 d-lg-block d-none">
+    // props.position<=0?(
+<div className='site-margin'>
+    <Container className="p-3  head-container mb-5" fluid>
+    {/* // style={{top:'-90px'}} */}
+      <div className='d-lg-block d-none'>
       <Row className="pl-5">
         <Col md={6} >
           <div className='logo-col'>
@@ -88,8 +92,11 @@ const Header = () => {
           </Link>
         </Col>
       </Row>
+      </div>
     </Container>
-  );
+    {/* // ):null */}
+    </div>
+      );
 };
 
 export default Header;
