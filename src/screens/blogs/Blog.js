@@ -74,7 +74,7 @@ const BlogContainer = () => {
         <Row>
             {blogData.map((item,i)=>{
                 return(
-                    <Col className='col-4 pt-4 single-blog'>
+                    <Col className='col-xl-4 pt-4 single-blog col-sm-6 col-6'>
                     <Col>
                     <img src = {item.img} className='blog-img' onClick={()=>history.push('/blogdescription')}/>
                     </Col>

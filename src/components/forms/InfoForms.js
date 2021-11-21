@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./InfoForms.css";
 import { Button, TextField } from "@mui/material";
 import emailjs from 'emailjs-com';
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedin,
-  ImLinkedin2,
-} from "react-icons/fa";
+// import {
+//   FaFacebookF,
+//   FaInstagram,
+//   FaLinkedin,
+//   ImLinkedin2,
+// } from "react-icons/fa";
 import { useHistory } from 'react-router-dom';
 
 const addressess = [

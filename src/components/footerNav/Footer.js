@@ -125,21 +125,18 @@ const Footer = () => {
       <Row>
         {data.map((item, i) => {
           return (
-            <Col className="justify-content-center d-flex">
+            <Col className="main-col col-sm-4 col-6">
               <div>
                 <div className="titles">{item.title}</div>
                 <div>
                   {item.content.map((content, index) => {
                     return (
                       <div
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                        }}
+                      className='con-div'
                       >
                         {content.imgLink !== undefined ? (
                           <div style={{ paddingRight: "10px" }}>
-                            <img src={content.imgLink} />
+                            <img src={content.imgLink} className='image-social'/>
                           </div>
                         ) : null}
                         <div className="content-name">{content.name}</div>

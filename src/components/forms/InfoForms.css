@@ -1,64 +1,79 @@
-.form{
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 30px;
-    width: 100%;
+.form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+  width: 100%;
 }
-.note-text{
-    font-weight: 600;
-    font-size: 0.9vw;
-    line-height: 21px;
-    text-align: left;
-    color: #000;
+.note-text {
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 21px;
+  text-align: left;
+  color: #000;
 }
-#standard-basic{
-    width: 27vw;
+#standard-basic {
+  width: 80%;
 }
-.outlined-button{
-    border-width: 3px;
+.outlined-button {
+  border-width: 3px;
 }
-.forms{
-    background-color:#f3f3f3;
+.forms {
+  background-color: #f3f3f3;
 }
-.meet-title{
-    font-weight: bold;
-    font-size: 2.7vw;
+.meet-title {
+  font-weight: bold;
+  font-size: 2.7vw;
 }
-.off-title{
-    font-weight: 500;
-    font-size: 1.5vw;
+.off-title {
+  font-weight: 500;
+  font-size: 1.5vw;
 }
-.border-div{
-    border-bottom: 3px solid #ffca00;
+.border-div {
+  border-bottom: 3px solid #ffca00;
 }
-.border-button{
-    color: black;
-    font-weight: 400;
+.border-button {
+  color: black;
+  font-weight: 400;
+}
+.address-fields {
+  font-weight: 350;
+  color: #000;
+  font-size: 1.3vw;
+}
+.form-info-title {
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+.form-info-value {
+  font-weight: 350;
+  font-size: 1.2vw;
+}
+.form-input {
+  border: none;
+  border-bottom: 1.5px solid grey;
+  background-color: transparent;
+  width: 85%;
+  margin-top: 10px;
+}
+.form-button {
+  border: 2px solid grey;
+  background-color: transparent;
+  border-radius: 5px;
+}
 
-}
-.address-fields{
-    font-weight: 350;
-    color:#000;
-    font-size: 1.3vw;
-}
-.form-info-title{
-    font-weight: 500;
-    font-size: 1.2vw;
-}
-.form-info-value{
-    font-weight: 350;
-    font-size: 1.2vw;
-}
-.form-input{
-    border: none;
-    border-bottom: 1.5px solid grey;
-    background-color: transparent;
-    width: 85%;
-    margin-top: 10px;
-}
-.form-button{
-    border: 2px solid grey;
-    background-color: transparent;
-    /* border-color: grey; */
-    border-radius: 5px;
+@media screen and (max-width: 575px) {
+  .note-text {
+    color: orange;
+  }
+  .form-info-title {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .off-title {
+    font-size: 30px;
+  }
+  .address-fields {
+    font-size: 30px;
+    color: aqua;
+  }
 }

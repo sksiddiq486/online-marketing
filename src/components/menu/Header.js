@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Menu, MenuItem, MenuButton, SubMenu } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
@@ -7,6 +7,7 @@ import "./Header.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { FiMenu,FiX } from "react-icons/fi";
 
 const Header = (props) => {
   return (
@@ -21,6 +22,7 @@ const Header = (props) => {
           <img
             src="/assets/images/logo.png"
             className="logo"
+            alt='logo'
           />
           </div>
         </Col>
@@ -95,6 +97,23 @@ const Header = (props) => {
       </div>
     </Container>
     {/* // ):null */}
+    <Container className='pl-5 pr-5 pt-3 pb-3 d-xl-none' fluid>
+      <Row>
+      <Col className=''>
+      <div className=''>
+          <img
+            src="/assets/images/logo.png"
+            className="logo"
+            alt='logo'
+          />
+          </div>
+      </Col>
+      <Col className='d-flex align-items-center justify-content-end'>
+        {!props.visible?(
+           <FiMenu onClick={()=>props.setVisible(!props.visible)}/>):(<FiX onClick={()=>props.setVisible(!props.visible)}/>)}
+      </Col>
+      </Row>
+      </Container>
     </div>
       );
 };

@@ -14,10 +14,12 @@ import ChatBot from "./screens/chat/ChatBot";
 import Success from "./components/confirm/Success";
 import Blog from "./screens/blogs/Blog";
 import BlogDescription from "./screens/blogs/BlogDescription";
+import MobileMenu from "./components/menu/MobileMenu";
 
 const App = () => {
   const [chatStatus, setChatStatus] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [visible, setVisible] = useState(false);
 
   const chatClick=()=>{
       setChatStatus(!chatStatus);
@@ -40,7 +42,7 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Header position={scrollPosition}/>
+        <Header position={scrollPosition} visible={visible} setVisible={setVisible}/>
          <Switch>
          <Route path="/blogdescription">
             <BlogDescription />
@@ -76,10 +78,15 @@ const App = () => {
             <Home />
           </Route>
         </Switch>
-      </Router>
+      
       <div className='floating-div'>
         <Floating chatClick={chatClick}/>
         </div>
+        {visible?(
+        <div className='menus'>
+          <MobileMenu onClick={()=>setVisible(!visible)}/>
+          </div>):null}
+          </Router>
         {/* {chatStatus?(
         <div style={{position:'fixed',top:'50px'}}>
         <ChatBot/>

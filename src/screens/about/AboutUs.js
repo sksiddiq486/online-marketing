@@ -108,7 +108,7 @@ const TeamImages = () => {
 
 const SocialIcons = () => {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center pt-2 pb-2">
       <Row className="social-row">
         <Col>
           <FaFacebookF />
