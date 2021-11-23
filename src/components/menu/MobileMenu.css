@@ -1,0 +1,28 @@
+.text {
+  color: yellow;
+  font-weight: 600;
+  font-size: large;
+  padding-bottom: 10px;
+}
+.total-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+.top-col {
+  left: 70%;
+}
+.sub-text {
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 600;
+}
+.link-text {
+  color: yellow;
+  text-decoration: none;
+}
+.sublink-text {
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,22 +1,32 @@
-.main-container{
-    background-color: #595959;
-    height: 70vh;
+.main-container {
+  background-color: #595959;
+  height: 70vh;
 }
-.blog-text{
-    font-weight: 800;
-    font-size: 3.5vw;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
+.blog-text {
+  font-weight: 800;
+  font-size: 3.5vw;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
-.blog-img{
-    height: 25vh;
-    width: 30vw;
+.blog-img {
+  height: 25vh;
+  width: 100%;
 }
-.blog-title{
+.blog-title {
+  font-weight: 800;
+  font-size: 1.4vw;
+}
+.single-blog:hover {
+  cursor: pointer;
+}
+
+@media (width: 575px) {
+  .blog-title {
     font-weight: 800;
     font-size: 1.4vw;
-}
-.single-blog:hover{
-    cursor: pointer;
+  }
+  .blog-text {
+    font-size: 5vw;
+  }
 }

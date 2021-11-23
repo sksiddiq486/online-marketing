@@ -1,46 +1,45 @@
-.bottom-container{
-    background-color: #ece9c3;
-    height: 60vh;
-overflow-y: scroll;
--ms-overflow-style: none;
+.bottom-container {
+  background-color: #ece9c3;
+  height: 60vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
   scrollbar-width: none;
-
 }
 .bottom-container::-webkit-scrollbar {
-    display: none;
-  }
-.text-para{
-    text-align: center;
-    color: #ffffff;
+  display: none;
 }
-.content-title{
-    text-align: center;
+.text-para {
+  text-align: center;
+  color: #ffffff;
 }
-.gif-image{
-    background-color: black;
+.content-title {
+  text-align: center;
 }
-.mains{
-    position: absolute;
-    color:white;
-    bottom:30vh;
-    font-weight: 800;
-    font-size: 2vw;
-    right:15vw
+.gif-image {
+  background-color: black;
 }
-.bold-title{
-    font-size: x-large;
-    font-weight: 900;
-    text-align: center;
+.mains {
+  position: absolute;
+  color: white;
+  bottom: 30vh;
+  font-weight: 800;
+  font-size: 2vw;
+  right: 15vw;
 }
-.text-pattern{
-    text-align: justify;
+.bold-title {
+  font-size: x-large;
+  font-weight: 900;
+  text-align: center;
 }
-.profile-image{
-    height: 5vw;
-    width: 5vw;
-    border-radius: 20vw;
+.text-pattern {
+  text-align: justify;
 }
-.custom-card{
-    width: 40%;
+.profile-image {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 20vw;
+  border: 2px solid grey;
 }
-
+.custom-card {
+  width: 40%;
+}

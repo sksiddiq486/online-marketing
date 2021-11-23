@@ -37,16 +37,6 @@ const Home = () => {
       <div>
         <ImageCarousel />
       </div>
-      {/* <div className="mains">
-        <Random
-          text={"Digital Traffic Makers"}
-          // paused={this.state.paused}
-          effect="verticalFadeOut"
-          effectDirection="down"
-          effectChange={5.0}
-        />
-      </div> */}
-
       <ContentDiv />
       <Container  className="gif-image pb-4 pt-0" fluid>
         <div
@@ -77,7 +67,6 @@ const Home = () => {
       <Services />
       <ContentImage />
       <Footer />
-      {/* <Floating /> */}
     </Container>
   );
 };
@@ -91,7 +80,7 @@ const ContentDiv = () => {
           About Us
         </div>
         <div className="d-flex align-items-center justify-content-center">
-        <div className="w-50 text-pattern">
+        <div className="w-xl-50 text-pattern">
           We are a team of highly motivated, passionate millennials for whom
           digital marketing is a way of life. Ittisa,
           one of the best digital marketing companies in Dubai
@@ -111,7 +100,7 @@ const ContentImage = () => {
           return(
             <Row className='p-3'>
             <Col className='col-4 d-flex align-items-start justify-content-end' >
-            <img src="/assets/images/computerimage.gif" className="profile-image" />
+            <img src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg" className="profile-image" />
             </Col>
             <Col className='col-8 card w-50 p-3'>
               <Col>{item.comment}</Col>
