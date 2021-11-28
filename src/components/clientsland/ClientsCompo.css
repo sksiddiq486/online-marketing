@@ -1,0 +1,36 @@
+.main-client-cont {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: #848484;
+}
+.client-imgs {
+  height: 80px;
+  width: 100%;
+}
+.clients-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.clients-title {
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .clients-text {
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 18px;
+  }
+  .clients-title {
+    font-weight: bold;
+    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    color: #ffffff;
+  }
+}

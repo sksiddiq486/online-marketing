@@ -1,0 +1,47 @@
+.round-div {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-card-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffcb3b;
+}
+.cards-col {
+  background-color: #ffffff;
+  width: 100%;
+}
+.main-cards-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-number {
+  font-weight: 900;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.card-des {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  .main-cards-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+}

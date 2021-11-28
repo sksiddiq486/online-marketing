@@ -1,33 +1,40 @@
-.logo{
-    height: 7vh;
-    width: 16vw;
+.logo {
+  height: 8vh;
+  width: 16vw;
 }
-.logo:hover{
-    cursor: pointer;
+.logo:hover {
+  cursor: pointer;
 }
-.menu-button{
-    border:none;
-    background: transparent;
-    font-size: 1.1VW;
-    font-weight: bold;
-    color:black
+.menu-button {
+  border: none;
+  background: transparent;
+  font-size: 1.1vw;
+  font-weight: bold;
+  color: black;
 }
-.contact-button{
-    padding: 5px;
-    border: none;
-    font-weight: bold;
+.contact-button {
+  padding: 5px;
+  border: none;
+  font-weight: bold;
 }
-.navigation-link{
-    color: black;
-    text-decoration: none;
+.navigation-link {
+  color: black;
+  text-decoration: none;
 }
-.logo-col{
-    padding-left: 50px;
+.logo-col {
+  padding-left: 50px;
 }
-.head-container{
-    position: fixed;
-    width: 100vw;
-    top:0px;
-    z-index: 2;
-    background-color: #ffffff
+.head-container {
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  z-index: 2;
+  background-color: #ffffff;
+}
+.mobile-logo {
+  height: 30px;
+  width: 100px;
+}
+.mobile-div {
+  padding: 10px 30px 10px 30px;
 }

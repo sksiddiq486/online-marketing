@@ -29,9 +29,6 @@ const reviewData=[
 ];
 
 const Home = () => {
-
-
-
   return (
     <Container className='p-0 m-0' fluid>
       <div>
