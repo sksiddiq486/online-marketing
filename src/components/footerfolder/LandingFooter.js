@@ -14,7 +14,7 @@ const LandingFooter=()=>{
         <Container className='m-0 p-0' fluid>
             <div className='main-landing-footer'>
             <Row className='m-0 p-0 pb-5 footer-row'>
-                <Col className='col-xl-5 col-12 m-0'>
+                <Col className='col-xl-5 col-12 m-0 p-0 p-xl-5'>
                     <Col className='box-container'>
                         <Col className='box-title'>Digital Traffic Makers
                         </Col>
@@ -25,7 +25,7 @@ const LandingFooter=()=>{
                         <ContactContainers title="Phone" value="+971 45 686 290"/>
                         <ContactContainers title="Email" value="media@digitaltrafficmakers.com"/>
                         <Col className='d-flex align-items-center justify-content-center pt-3'>
-                        <Row className='col-6'>
+                        <Row className='col-xl-6 col-12'>
                             <Col><FaFacebookF/>
                             </Col>
                             <Col><FaInstagram/>
@@ -47,7 +47,7 @@ const LandingFooter=()=>{
                         
                         </Col>
                         </Col> */}
-                        <Col className='col-xl-6 col-12'>
+                        <Col className='col-xl-6 col-12 pt-xl-5'>
                         <Col className='side-title'>Sign up for the newsletter
                         </Col>
                         <Col className='side-des'>Be one of the first customers to know about our promos and special offers.
@@ -70,7 +70,7 @@ const ContactContainers=(props)=>{
 return(
     <Col className=''>
     <Row  className='d-flex align-items-center justify-content-start'>
-        <Col className="title-style col-auto">{props.title}:
+        <Col className="title-style col-xl-auto col-12">{props.title}:
         
         </Col>
         <Col className="value-style col-auto">{props.value}</Col>
