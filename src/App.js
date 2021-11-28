@@ -45,7 +45,7 @@ const App = () => {
       <Router>
         <Header position={scrollPosition} visible={visible} setVisible={setVisible}/>
          <Switch>
-         <Route path="/landing">
+         <Route path="/landingpage">
             <LandingScreen />
           </Route>
          <Route path="/blogdescription">

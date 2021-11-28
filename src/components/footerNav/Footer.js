@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaLinkedin
 } from "react-icons/fa";
+import { useHistory } from 'react-router-dom';
 
 const data = [
   {
@@ -116,10 +117,19 @@ const data = [
 ];
 
 const Footer = () => {
+  const history = useHistory();
   const linkClick = (e, link) => {
     e.preventDefault();
     window.open(link);
   };
+
+  const openPage=(i, index)=>{
+    if(i=='0'){
+      if(index == '1')
+     history.push('/landingpage')
+    }
+
+  }
   return (
     <Container className="main-containers pb-5 pt-3" fluid>
       <Row>
@@ -139,7 +149,7 @@ const Footer = () => {
                             <img src={content.imgLink} className='image-social'/>
                           </div>
                         ) : null}
-                        <div className="content-name">{content.name}</div>
+                        <div className="content-name" onClick={()=>openPage(i,index)}>{content.name}</div>
                       </div>
                     );
                   })}
