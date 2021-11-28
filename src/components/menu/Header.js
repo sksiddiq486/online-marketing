@@ -6,15 +6,18 @@ import "@szhsin/react-menu/dist/transitions/slide.css";
 import "./Header.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link,useHistory } from "react-router-dom";
 import { FiMenu,FiX } from "react-icons/fi";
 
 const Header = (props) => {
+  const history = useHistory();
+
+  const imageClick=()=>{
+    history.push("/");
+  }
   return (
-    // props.position<=0?(
 <div className='site-margin'>
     <Container className="p-3  head-container mb-5" fluid>
-    {/* // style={{top:'-90px'}} */}
       <div className='d-lg-block d-none'>
       <Row className="pl-5">
         <Col md={6} >
@@ -23,6 +26,7 @@ const Header = (props) => {
             src="/assets/images/logo.png"
             className="logo"
             alt='logo'
+            onClick={imageClick}
           />
           </div>
         </Col>
@@ -96,23 +100,25 @@ const Header = (props) => {
       </Row>
       </div>
     </Container>
-    {/* // ):null */}
-    <Container className='pl-5 pr-5 pt-3 pb-3 d-xl-none' fluid>
+    <Container className='m-0 p-0 head-container'>
+      <div className='d-xl-none head-container mobile-div'>
       <Row>
       <Col className=''>
       <div className=''>
           <img
             src="/assets/images/logo.png"
-            className="logo"
+            className="mobile-logo"
             alt='logo'
+            onClick={imageClick}
           />
           </div>
       </Col>
-      <Col className='d-flex align-items-center justify-content-end'>
+      <Col className='d-flex align-items-center justify-content-end pr-5 p-0'>
         {!props.visible?(
            <FiMenu onClick={()=>props.setVisible(!props.visible)}/>):(<FiX onClick={()=>props.setVisible(!props.visible)}/>)}
       </Col>
       </Row>
+      </div>
       </Container>
     </div>
       );

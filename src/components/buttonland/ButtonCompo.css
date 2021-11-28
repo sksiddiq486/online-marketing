@@ -1,0 +1,30 @@
+.button-imgs {
+  height: 30px;
+  width: 30px;
+}
+.button-row {
+  background-color: #e9edea;
+  height: 70px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-cont {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.button-des {
+  font-weight: 700;
+  font-size: medium;
+  padding-right: 10px;
+}
+.second-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 575px) {
+}

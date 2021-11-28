@@ -10,11 +10,12 @@ import AboutUs from "./screens/about/AboutUs";
 import Header from "./components/menu/Header";
 import SeoServices from "./screens/seo/SeoServices";
 import Floating from "./components/Floting";
-import ChatBot from "./screens/chat/ChatBot";
+// import ChatBot from "./screens/chat/ChatBot";
 import Success from "./components/confirm/Success";
 import Blog from "./screens/blogs/Blog";
 import BlogDescription from "./screens/blogs/BlogDescription";
 import MobileMenu from "./components/menu/MobileMenu";
+import LandingScreen from "./screens/landing/LandingScreen";
 
 const App = () => {
   const [chatStatus, setChatStatus] = useState(false);
@@ -40,10 +41,13 @@ const App = () => {
 }, []);
 
   return (
-    <div>
+    // <div>
       <Router>
         <Header position={scrollPosition} visible={visible} setVisible={setVisible}/>
          <Switch>
+         <Route path="/landing">
+            <LandingScreen />
+          </Route>
          <Route path="/blogdescription">
             <BlogDescription />
           </Route>
@@ -87,12 +91,14 @@ const App = () => {
           <MobileMenu onClick={()=>setVisible(!visible)}/>
           </div>):null}
           </Router>
-        {/* {chatStatus?(
-        <div style={{position:'fixed',top:'50px'}}>
-        <ChatBot/>
-        </div>):null} */}
-    </div>
+        
   );
 };
 
 export default App;
+
+{/* {chatStatus?(
+        <div style={{position:'fixed',top:'50px'}}>
+        <ChatBot/>
+        </div>):null} */}
+    {/* </div> */}

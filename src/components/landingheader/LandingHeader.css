@@ -1,0 +1,18 @@
+.main-title-div {
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-mobile-div {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sites-margin {
+  background-color: red;
+  /* position: fixed; */
+}
