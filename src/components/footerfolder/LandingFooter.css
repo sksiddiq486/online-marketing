@@ -15,7 +15,7 @@
 }
 .value-style {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
 }
 .footer-row {
   border-bottom: 2px solid #ffffff;
@@ -69,5 +69,8 @@
   }
   .box-container {
     width: 100%;
+  }
+  .box-col {
+    padding: 0px;
   }
 }

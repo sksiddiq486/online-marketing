@@ -1,12 +1,19 @@
-.floting-container{
-    position: absolute;
-    top:100vh;
-    z-index: 1;
-    right:30px
+.floting-container {
+  position: absolute;
+  top: 100vh;
+  z-index: 1;
+  right: 30px;
 }
-.chat-div{
-    height:20vh;
-    display:flex;
-    align-items:end;
-    padding-right:1vw;
+.chat-div {
+  height: 20vh;
+  display: flex;
+  align-items: end;
+  padding-right: 1vw;
+}
+
+@media (max-width: 575px) {
+  .chat-div {
+    height: 24vh;
+    padding-right: 1vw;
+  }
 }

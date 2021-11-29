@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect,useRef } from 'react';
 import './LandingScreen.css';
 import { Container, Row, Col } from "react-bootstrap";
 import {Button,TextField} from '@mui/material';
@@ -16,6 +16,11 @@ import { FiCheck } from "react-icons/fi";
 
 const LandingScreen=()=>{
   const history = useHistory();
+  const divRef = useRef()
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -36,8 +41,8 @@ const LandingScreen=()=>{
           className='landingscreen-div'
           >
           {/* <LandingHeader/> */}
-            <ImageBanner/>
-            <ContactForm sendEmail={sendEmail}/>
+            <ImageBanner divRef={divRef}/>
+            <ContactForm sendEmail={sendEmail} divRef={divRef}/>
             <LeftImageTitleContainer/>
             <ButtonCompo title={'FEATURE'} subtitle={'SOCIAL MEDIA FEATURES'} 
             data={[
@@ -217,7 +222,7 @@ const LandingScreen=()=>{
 
 export default LandingScreen;
 
-const ImageBanner=()=>{
+const ImageBanner=(props)=>{
     return(
         <Row className='banner-col p-xl-5 p-sm-3'>
            <Col className='d-xl-none d-block'>
@@ -233,7 +238,10 @@ const ImageBanner=()=>{
                 <Col className='banner-subtitle'>Do you want to outsource some of your digital marketing channels? Do you need to get extra leads, customers or conversions? We are here to assist.
                 </Col>
                 <Col className='pt-3 p-0 quote-button-div'>
-                <Button variant="contained" style={{backgroundColor:'black'}}>Get a Quote</Button>
+                <Button variant="contained" style={{backgroundColor:'black'}} onClick={()=>{ 
+                  const { offsetTop } = props.divRef.current
+                  window.scrollTo(0, offsetTop-50)
+                  }}>Get a Quote</Button>
                 </Col>
                 </div>
                 </Col>
@@ -249,7 +257,7 @@ const ImageBanner=()=>{
 
 const ContactForm=(props)=>{
     return(
-      <div className='form-row'>
+      <div className='form-row' ref={props.divRef}>
         <Row>
             <Col className='col-xl-6 col-12 p-sm-3 p-xl-0'>
               <Row className='d-flex align-items-center'>
