@@ -16,6 +16,7 @@ import Blog from "./screens/blogs/Blog";
 import BlogDescription from "./screens/blogs/BlogDescription";
 import MobileMenu from "./components/menu/MobileMenu";
 import LandingScreen from "./screens/landing/LandingScreen";
+import CustomModel from "./components/model/CustomModel";
 
 const App = () => {
   const [chatStatus, setChatStatus] = useState(false);
@@ -90,6 +91,7 @@ const App = () => {
         <div className='menus'>
           <MobileMenu onClick={()=>setVisible(!visible)}/>
           </div>):null}
+          <CustomModel/>
           </Router>
         
   );
