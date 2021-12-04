@@ -10,7 +10,7 @@ const LeftSpecialContainer = (props) => {
         <div className="top-left-div">
           <Row>
             <Col className="col-xl-6 col-md-6 col-12 img-col">
-              <img src="https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className='left-image'/>
+              <img src="/assets/images/landingpage2.jpg" className='left-image'/>
             </Col>
             <Col className="col-xl-6 col-md-6 col-12">
               <Col className="left-content-title">

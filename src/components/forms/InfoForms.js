@@ -162,8 +162,8 @@ const InfoForms = (props) => {
             <InputField label="PHONE" name={'phone'}/>
             <InputField label="MESSAGE" name={'message'}/>
               <Col className="note-text">
-              We are cautious about your privacy. Volga Tigris Digital Marketing
-              Agency uses the information you provide to us to contact you about
+              We are cautious about your privacy. Digital Traffic Makers
+              uses the information you provide to us to contact you about
               our relevant content, products, and services. You can unsubscribe
               from these communications at any time, if you wish to. For more
               information, check out our{" "}

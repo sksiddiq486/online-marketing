@@ -48,42 +48,42 @@ const LandingScreen=()=>{
             data={[
               {
                 id:1,
-                img:'',
+                img:'/assets/images/icon1.png',
                 title:'Post Designing'
               },
               {
                 id:2,
-                img:'',
+                img:'/assets/images/icon2.png',
                 title:'Quality Hashtags'
               },
               {
                 id:3,
-                img:'',
+                img:'/assets/images/icon3.png',
                 title:'Social media calendar'
               },
               {
                 id:4,
-                img:'',
+                img:'/assets/images/icon4.png',
                 title:'Multilingual post'
               },
               {
                 id:5,
-                img:'',
+                img:'/assets/images/icon5.png',
                 title:'Daily Management'
               },
               {
                 id:6,
-                img:'',
+                img:'/assets/images/icon6.png',
                 title:'Client Engagement'
               },
               {
                 id:7,
-                img:'',
+                img:'/assets/images/icon7.png',
                 title:'Viral Trends'
               },
               {
                 id:8,
-                img:'',
+                img:'/assets/images/icon8.png',
                 title:'Competitor’s tracking'
               }
             ]}
@@ -94,22 +94,22 @@ const LandingScreen=()=>{
             data={[
               {
                 id:1,
-                img:'',
+                img:'/assets/images/icon9.png',
                 title:`Brand's Credability`
               },
               {
                 id:2,
-                img:'',
+                img:'/assets/images/icon10.png',
                 title:'Product Identity'
               },
               {
                 id:3,
-                img:'',
+                img:'/assets/images/icon11.png',
                 title:'User Loyality'
               },
               {
                 id:4,
-                img:'',
+                img:'/assets/images/icon12.png',
                 title:'Customer Intent'
               },
               
@@ -117,7 +117,7 @@ const LandingScreen=()=>{
             />
             <RightImageContainer 
             title={'Specialized in Search Engine Marketing:'} 
-            img={'https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'}
+            img={'/assets/images/landingpage4.jpg'}
             des={'Google Advertising can be a crucial source of traffic for any business. Make sure your customers can find you where they are looking for products and services – in Google search. From social strategy to implementations, your business will be on its way to boosting brand awareness, connecting with your customers, and generating revenue.'}
             des1={'Google Search Ads, Google Display Ads, Video ads in all targeting areas will target to generate the quality leads for your business.'}
             />
@@ -125,38 +125,38 @@ const LandingScreen=()=>{
             data={[
               {
                 id:1,
-                img:'',
+                img:'/assets/images/icon13.png',
                 title:'Search Ads'
               },
               {
                 id:2,
-                img:'',
+                img:'/assets/images/icon14.png',
                 title:'Display Ads'
               },
               {
                 id:3,
-                img:'',
+                img:'/assets/images/icon15.png',
                 title:'Lead Generation'
               },
               {
                 id:4,
-                img:'',
+                img:'/assets/images/icon16.png',
                 title:'Shopping Ads'
               },
               {
                 id:5,
-                img:'',
+                img:'/assets/images/icon17.png',
                 title:'Video Ads'
               },
               {
                 id:6,
-                img:'',
+                img:'/assets/images/icon18.png',
                 title:'App Promotional Ads'
               }
             ]}
             />
              <LeftImageContainer 
-             img={'https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'} 
+             img={'/assets/images/landingpage5.jpg'} 
              title={'Well verse in handling the Search Engine Optimization Services:'} 
              des={'Digital Traffic Makers diligently research both your business and its competitors and then determine which steps need to be taken in order to maximize your business’s search results. The research and the audit, both together help us to form an SEO strategy that is ideal for your unique website/business. SEO has a major impact in everything from traffic to sales. Avatar Studios proffer bespoke (Search Engine Optimization) SEO services in Bangalore to gain more traction to your business. Our in-house experts craft tailored campaigns to generate more traffic by analyzing your digital assets and competitor platform whilst being budget centric.'}
              des1={''}
@@ -165,42 +165,42 @@ const LandingScreen=()=>{
             data={[
               {
                 id:1,
-                img:'',
+                img:'/assets/images/icon19.png',
                 title:'Off Page'
               },
               {
                 id:2,
-                img:'',
+                img:'/assets/images/icon20.png',
                 title:'On Page'
               },
               {
                 id:3,
-                img:'',
+                img:'/assets/images/icon21.png',
                 title:'Technical SEO'
               },
               {
                 id:4,
-                img:'',
+                img:'/assets/images/icon22.png',
                 title:'Local SEO'
               },
               {
                 id:5,
-                img:'',
+                img:'/assets/images/icon23.png',
                 title:'Targeting Keywords'
               },
               {
                 id:6,
-                img:'',
+                img:'/assets/images/icon24.png',
                 title:'Long Tail Keywords'
               },
               {
                 id:7,
-                img:'',
+                img:'/assets/images/icon25.png',
                 title:'Content SEO'
               },
               {
                 id:8,
-                img:'',
+                img:'/assets/images/icon26.png',
                 title:'Image Alt Tags'
               }
             ]}
@@ -227,7 +227,7 @@ const ImageBanner=(props)=>{
         <Row className='banner-col p-xl-5 p-sm-3'>
            <Col className='d-xl-none d-block'>
              <div className='sideimg-col'>
-            <img src='https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='img' style={{height:'90%',width:'90%'}}/>
+            <img src='/assets/images/landingpage1.jpg' alt='img' style={{height:'90%',width:'90%'}}/>
                 </div>
                 </Col>
             <Col className='col-xl-6 col-12 d-flex align-items-center justify-content-center'>
@@ -248,7 +248,7 @@ const ImageBanner=(props)=>{
             </Col>
             <Col className='col-xl-6 col-12'>
             <Col className='sideimg-col d-none d-xl-block'>
-            <img src='https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='img' style={{height:'90%',width:'90%'}}/>
+            <img src='/assets/images/landingpage1.jpg' alt='img' style={{height:'90%',width:'90%'}}/>
                 </Col>
             </Col>
         </Row>
@@ -344,7 +344,7 @@ const RightImageContainer = (props) => {
         <div className="p-2">
           <Row>
             <Col className="col-xl-6 col-md-6 col-12 img-col d-flex align-items-center justify-content-center">
-              <img src="https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className='left-image'/>
+              <img src="/assets/images/landingpage3.jpg" className='left-image'/>
             </Col>
             <Col className="col-xl-6 col-md-6 col-12">
               <Col className="left-content-title">

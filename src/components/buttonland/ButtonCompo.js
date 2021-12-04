@@ -20,11 +20,11 @@ const ButtonCompo=(props)=>{
                 </Col>
                 </Col>
                 <Col className='second-col'>
-            <Row className='col-xl-10 col-12'>
+            <Row className='col-xl-10 col-12'>  
                 {props.data.map((item,i)=>{
                     return(
                         <IndividualButton 
-                        image='https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' 
+                        image={item.img} 
                         description={item.title}
                         />
                     )
