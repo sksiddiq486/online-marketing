@@ -30,7 +30,7 @@ const ImagesCompo=(props)=>{
                 description={'Post Designing'}
                 />
                                 <IndividualImage 
-                image='/assets/images/project3.png' 
+                image='/assets/images/project3.jpg' 
                 description={'Post Designing'}
                 />
              <IndividualImage 

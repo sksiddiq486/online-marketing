@@ -8,10 +8,10 @@ const CardCompo = ()=>{
         <Container className='main-card-cont' fluid>
             <Col className='col-xl-10 col-12 p-0 m-0'>
                 <Row className='col-xl-12 d-flex align-items-center justify-content-center p-0 m-0'>
-                 <CustomCard number={'487'} title={'Succeeded Projects'}/>
-                 <CustomCard number={'69978'} title={'Working Hours Spent'}/>
-                 <CustomCard number={'102'} title={'Websites Developed'}/>
-                 <CustomCard number={'9'} title={'Platforms Mastered'}/>
+                 <CustomCard number={'15'} title={'Succeeded Projects'} img={'/assets/images/succed1.png'}/>
+                 <CustomCard number={'426'} title={'Working Hours Spent'} img={'/assets/images/succed2.png'}/>
+                 <CustomCard number={'15'} title={'Websites Developed'} img={'/assets/images/succed3.png'}/>
+                 <CustomCard number={'9'} title={'Platforms Mastered'} img={'/assets/images/succed4.png'}/>
                     </Row>
             </Col>
             </Container>
@@ -26,7 +26,7 @@ const CustomCard=(props)=>{
         <Col className='cards-col'>
         <Col className='d-flex align-items-center justify-content-center'>
             <div className='round-div'>
-                <img src="https://images.pexels.com/photos/6483579/pexels-photo-6483579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                <img src={props.img}
                 style={{height:"20px",width:"20px"}}
                 />
                 </div>

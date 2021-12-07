@@ -211,7 +211,7 @@ const LandingScreen=()=>{
             des={'Social media is the easiest, most efficient way for prospective customers to reach your brand to send a message, feedback, or a general inquiry, and your response time counts as it greatly reflects on how the brand cares for its customers. We handle responding to these queries, as well as reacts, and ensure that messages are responded to in the shortest time possible.'}
             /> */}
             <ImagesCompo />
-            <ClientsCompo/>
+            {/* <ClientsCompo/> */}
             <LandingContact/>
             <LandingFooter/>
             </div>
@@ -247,7 +247,7 @@ const ImageBanner=(props)=>{
                 </Col>
             </Col>
             <Col className='col-xl-6 col-12'>
-            <Col className='sideimg-col d-none d-xl-block'>
+            <Col className='sideimg-col d-none d-xl-block pt-10'>
             <img src='/assets/images/landingpage1.jpg' alt='img' style={{height:'90%',width:'90%'}}/>
                 </Col>
             </Col>
